@@ -1,0 +1,15 @@
+---
+title: "About Jessica Poblete"
+date: 2025-05-13
+draft: false
+description: "Jessica Poblete is so cool"
+slug: "aboutJessica"   # if you use, needs to be different for every post
+tags: ["authors", "config", "docs"]
+authors:
+  - "JessicaPoblete"
+showAuthorsBadges : false
+---
+
+# About Jessica Poblete
+
+I am Jessica Poblete, I am a 2nd year computer science major at **Northeastern University**.
