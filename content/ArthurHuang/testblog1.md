@@ -9,6 +9,8 @@ authors:
   - "Arthur Huang"
 showAuthorsBadges : false
 
+---
+
 
 # About Arthur Huang
 ## This is an autobiography for Arthur Huang
