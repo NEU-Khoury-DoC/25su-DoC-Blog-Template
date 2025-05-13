@@ -3,7 +3,7 @@ title: "About Arthur Huang"
 date: 2025-05-13
 draft: false
 description: "Arthur Huang !"
-slug: "blog1"   # if you use, needs to be different for every post
+slug: "Arthur Huang blog 1" 
 tags: ["authors", "config", "docs"]
 authors:
   - "Arthur Huang"
