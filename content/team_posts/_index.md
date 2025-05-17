@@ -10,6 +10,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team 10!
 
 Welcome to the Professorial Team's Blog
