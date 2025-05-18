@@ -6,7 +6,7 @@ description: "The best Pokemon trainer in all of Belgium (apparently)"
 slug: "blog1"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
-  - "katherine_ahn.json"
+  - "katherineahn.json"
 showAuthorsBadges : false
 ---
 
