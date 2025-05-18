@@ -20,14 +20,3 @@ I am a rising 4th year **Cybersecurity** major at Northeastern university
 I have two pets back home:
 - a schnoodle named Cooper
 - a sphyinx cat named Jasper
-
-
-# Phase One Blog Post
-This Phase includes 
-- Life in Leuven
-- Trips to Brussels, Bruges, and Oostendes
-- NATO
-- EU Parlement 
-- Working on my Project
-
-So far, my time in Belgium has been an incredibly exciting and educational time. The city we are staying in, Leuven ....
