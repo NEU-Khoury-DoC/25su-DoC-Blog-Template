@@ -6,7 +6,7 @@ description: "Blog Post after phase 1 of the Dialouge"
 slug: "arthurhuangblog1" 
 tags: ["authors", "config", "docs"]
 authors:
-  - "Arthur Huang"
+  - "arthurhuang"
 showAuthorsBadges : false
 
 ---
