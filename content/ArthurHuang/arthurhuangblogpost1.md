@@ -1,9 +1,9 @@
 ---
-title: "Phase 1 Blog Post"
-date: 2025-05-20
+title: "Blog Post 1"
+date: 2025-05-19
 draft: false
-description: "Blog Post after phase 1 of the Dialouge"
-slug: "arthurhuangphase1blog" 
+description: "Phase 1 deliverable Individual"
+slug: "arthurhuangblog1" 
 tags: ["authors", "config", "docs"]
 authors:
   - "arthurhuang"
