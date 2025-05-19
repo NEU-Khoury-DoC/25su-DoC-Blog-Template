@@ -3,7 +3,7 @@ title: "About Arthur Huang"
 date: 2025-05-13
 draft: false
 description: "Arthur Huang !"
-slug: "Arthur Huang blog 1" 
+slug: "aboutarthurhuang" 
 tags: ["authors", "config", "docs"]
 authors:
   - "arthurhuang"
