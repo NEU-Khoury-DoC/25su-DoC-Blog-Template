@@ -6,7 +6,7 @@ description: "Arthur Huang !"
 slug: "Arthur Huang blog 1" 
 tags: ["authors", "config", "docs"]
 authors:
-  - "Arthur Huang"
+  - "arthurhuang"
 showAuthorsBadges : false
 
 ---
