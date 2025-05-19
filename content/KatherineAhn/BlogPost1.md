@@ -6,7 +6,7 @@ description: "Blog Post I and more!"
 slug: "blog1"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
-  - "katherineahn.json"
+  - "katherineahn"
 showAuthorsBadges : false
 ---
 
