@@ -6,7 +6,7 @@ description: "Gabby Montalvo so cool!"
 slug: "aboutgabby"
 tags: ["authors", "config", "docs"]
 authors:
-- "gabbymontalvo"
+  - "gabbymontalvo"
 showAuthorsBadges : false
 ---
 
