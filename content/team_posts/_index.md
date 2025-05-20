@@ -10,27 +10,20 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team CareCompass!
 
 Welcome to the Professorial Team's Blog
 
 # Introduction
 
-Hi, We are Team Leuven! **This is bold text**, and this is _emphasized_ text.
+Hi, We are Team CareCompass! **We make healthcare more accessible for you!** 
+Read on to find out about _our project._
 
-- here
-- are
-- some
-- bullet
-- points
-
-# This is a Level 1 heading
-
-Can you see this?
-
-## This is a Level 2 heading
-
-Wait, can you hear me now?
+We want to make healthcare information availible so that the public can understand various countries healthcare:
+- Access/Coverage
+- Quality
+- Affordability/Financial Protection 
+- Outcomes 
 
 
 
