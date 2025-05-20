@@ -13,9 +13,9 @@ showAuthorsBadges : false
 # About Alp Berrak
 
 I am a rising 4th year **Cybersecurity** major at Northeastern university
-| living in | New Jersey | 
+| living in | Born in | 
 |---|---|
-|born in | Turkieye |
+|New Jersey | Turkieye |
 
 I have two pets back home:
 - a schnoodle named Cooper
