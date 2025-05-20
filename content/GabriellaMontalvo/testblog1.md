@@ -12,4 +12,4 @@ showAuthorsBadges : false
 
 # About Gabby Montalvo
 
-Gabby Montalvo loves to read, write, and going outdoors! She is very excited to be in Belgium for the summer.
+I love to read, write, and go outdoors! I am very excited to be in Belgium for the summer. Yay DS300 !
