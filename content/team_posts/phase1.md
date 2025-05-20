@@ -6,8 +6,10 @@ description: "Our Idea"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "eliannemejia"
-  - "mark_fontenot"
+    - "eliannemejia"
+    - "JessicaPoblete"
+    - "alpberrak"
+    - "mahikamodi"
 showAuthorsBadges: false
 ---
 
