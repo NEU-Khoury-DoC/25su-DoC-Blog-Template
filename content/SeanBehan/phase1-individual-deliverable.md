@@ -6,7 +6,7 @@ description: "Interesting things that I have learned on the first week of the di
 slug: "phase1-individual-deliverable" # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
-  - "seanbehan"
+  - "seanbehan"
 showAuthorsBadges : false
 ---
 
