@@ -6,7 +6,7 @@ description: "Maria Samos Rivas is the best!"
 slug: "aboutmaria"
 tags: ["authors", "config", "docs"]
 authos: 
-- :"mariasamosrivas"
+  - "mariasamosrivas"
 showAuthorBadges: false 
 ---
 

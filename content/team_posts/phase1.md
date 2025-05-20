@@ -1,30 +1,62 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-14
+date: 2024-05-20
 draft: false
-description: "Our Idea"
+description: "Our Idea, Data, Personas"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "eric_gerber"
-  - "mark_fontenot"
+  - "aidankelly"
+  - "seanbehan"
+  - "gabriellamontalvo
+  - "mariasamosrivas"
 showAuthorsBadges: false
 ---
 
-# Introduction
+# ASMG Project Introduction: Road Safety
 
-Hi, We are Team Leuven! **This is bold text**, and this is _emphasized_ text.
+## Project Description
 
-- here
-- are
-- some
-- bullet
-- points
+Since automobiles became common in the early 1900s, automobiles have been one of the leading non-natural causes of death for humans across the developed world. Additionally, they have posed major safety and injury concerns beyond just deaths. In a world reliant on automobiles for travel, governments and independent agencies have continuously worked to make roads safer for all users, but their efforts still leave a lot of room for improvement. We are building an application to help address this problem by identifying patterns and attributes of roads across Europe that result in a larger number of accidents and fatalities. This application will consider data like car accidents, road deaths, road infrastructure spending, road quality, and road density for each country. With this information, users will be able to determine whether the roads and travel methods they plan to take are truly safe or if they should find an alternate route, and help governments determine which types of roads they should build more of to keep their citizens safe.
 
-# This is a Level 1 heading
 
-Can you see this?
+## User Personas
 
-## This is a Level 2 heading
+1. Persona 1
+  - User story 1
+  - User story 2
+  - User story 3
+  - User story 4
+2. Persona 2
+  - User story 1
+  - User story 2
+  - User story 3
+  - User story 4
+3. Persona 3
+  - User story 1
+  - User story 2
+  - User story 3
+  - User story 4
 
-Wait, can you hear me now?
+
+## Candidate Data Sources
+
+### Data Source Name and Source
+
+![Image of calling API and dataframe.head()](/folder/imagename.png)
+
+**Obeservations:** 0 <br>
+**Numerical Features:** 0 <br>
+**Categorical Features:** 0
+
+Describe utility of data in addressing user personas.
+
+### Data Source Name and Source
+
+![Image of calling API and dataframe.head()](/folder/imagename.png)
+
+**Obeservations:** 0 <br>
+**Numerical Features:** 0 <br>
+**Categorical Features:** 0
+
+Describe utility of data in addressing user personas.
