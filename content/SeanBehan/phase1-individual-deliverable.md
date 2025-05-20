@@ -3,7 +3,7 @@ title: "Phase I - Individual Deliverable"
 date: 2025-05-20
 draft: false
 description: "Interesting things that I have learned on the first week of the dialogue."
-slug: "phase1-ind-dev" # if you use, needs to be different for every post
+slug: "phase1_ind_dev"  # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "seanbehan"
