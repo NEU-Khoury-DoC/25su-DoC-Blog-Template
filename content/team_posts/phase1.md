@@ -60,11 +60,23 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Models: 
 **Personalized Scoring Recommendations** - Countries to travel to given the scoring preferences (weights)
+
 **Clustering** - Group similar healthcare systems
+
 **Predictive Modeling** - Predict how a country’s score might change in the next 5 years based on trends and present day policy
+
 **Principal Component Analysis (PCA)** - reduce multi-dimensional healthcare data into 2D plots 
 
 
 # Data Sources: 
+
+**Data Source 1**
+Generalist medical practitioners, per 10 000 population:
+
+Dataset Json:
+![image info](./images/dataset1.png)
+
+
+**Data Source 2**
 
 
