@@ -1,14 +1,15 @@
 ---
-title: "Phases 1 Deliverable"
-date: 2025-05-21
+title: "Phase 1 Deliverable"
+date: 2024-05-18
 draft: false
-description: "Phase 1 Blog"
-slug: "Phase1Blog"   # if you use, needs to be different for every post
+description: "Phase 1 Individual Deliverable"
+slug: "phase1alp"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "alpberrak"
 showAuthorsBadges : false
 ---
+
 # Phase One Blog Post
 ## Contents
 - Life in Leuven
