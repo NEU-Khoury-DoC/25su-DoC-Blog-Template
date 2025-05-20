@@ -21,6 +21,7 @@ We are building an application that evaluates the healthcare systems of countrie
 - quality of care
 - affordability
 - outcomes. 
+
 For each factor, key indicators are aggregated and a score is calculated, which may then be combined for a composite score for a given country. For example, given key indicators for _‘Outcome’_ being life expectancy and infant mortality, these may be normalized, weighted, and aggregated to compute one _‘Outcome’_ score. This factor may then contribute 25% of the total score, with the other core factors representative of the other 75%. The country scores are further visualized through heat maps and other comparisons.
 
 Additionally, users may explore customizing the weights used for scoring for each of the four factors, making it personalized to their own priorities and focused use of the app; if a user is only interested in affordability and quality, but still wants to consider access and outcomes, the weights may be 30%, 30%, 20%, 20%, respectively. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators. 
@@ -83,5 +84,9 @@ Dataset Json:
 
 
 **Data Source 2**
+Households impoverished after out-of-pocket healthcare payments
+
+Dataset Json: 
+![image](dataset2.png)
 
 
