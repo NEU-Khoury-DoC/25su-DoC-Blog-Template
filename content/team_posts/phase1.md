@@ -78,8 +78,7 @@ population of the country for a list of countries in Europe as well as in neighb
 This data can serve as a measure of the prevelance of accessabile health services in different countries and regions and can be used in conjuction with other gathered data in order to determine a numerical ranking/evaluation of a countries healthcare system.
 
 Dataset Json:
-
-![image](./images/dataset1.png)
+![image](dataset1.png)
 
 
 
