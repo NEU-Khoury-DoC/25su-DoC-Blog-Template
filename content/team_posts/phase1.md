@@ -97,8 +97,8 @@ Fatalities in road-related instances can be mitigated by looking at the intersec
 
 ### Road traffic deaths, by type of roads (via EuroStat)
 
-![Image of calling API and dataframe.head()](/assets/RoadDeaths1.png)
-![Image of calling API and dataframe.head()](/assets/RoadDeath2.png)
+![Image of calling API and dataframe.head()](RoadDeaths1.png)
+![Image of calling API and dataframe.head()](RoadDeath2.png)
 
 **Obeservations:** 35 <br>
 **Numerical Features:** 24 <br>
@@ -119,8 +119,8 @@ Fatalities in road-related instances can be mitigated by looking at the intersec
 
 ### Road Quality by Country (via data360.worldbank)
 
-![Image of calling API and dataframe.head()](/assets/RoadQual1.png)
-![Image of calling API and dataframe.head()](/assets/RoadQual2.png)
+![Image of calling API and dataframe.head()](RoadQual1.png)
+![Image of calling API and dataframe.head()](RoadQual2.png)
 
 **Obeservations:** 118 <br>
 **Numerical Features:** 3 <br>
@@ -165,7 +165,7 @@ url = f"{base_url}/{agency},{dataset},{version}/{dimensions}"
 response = requests.get(url, params=params).json() 
 ```
 
-![Image of calling API and dataframe.head()](/assets/Transport1.jpeg)
+![Image of calling API and dataframe.head()](Transport1.jpeg)
 
 **Obeservations:** 26 <br>
 **Numerical Features:** 28 <br>
