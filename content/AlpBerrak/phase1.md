@@ -26,5 +26,5 @@ I have also been given the gracious opportunity to tour the EU Parliament as wel
 
 For the project, this phase, I, along with my team, found interesting datasets on asylum seekers, drafted/formed/wrote the question, and formed the persona questions. I also wrote all the user stories for the second persona (The EU Diplomat)
 
-![EUParliment](/static/euparl.png)
-![Bruges](/static/bruges.png)
+![EUParliment](/static/images/euparl.png)
+![Bruges](/static/images/bruges.png)
