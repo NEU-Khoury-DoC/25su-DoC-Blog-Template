@@ -1,5 +1,5 @@
 ---
-title: "Dr. Eric Gerber"
+title: "Mahika Modi"
 ---
 
-Hi, My name is Eric Gerber, and I am still kind of figuring out Git!
+Hi, My name is Mahika Modi, and I am still kind of figuring out Git!
