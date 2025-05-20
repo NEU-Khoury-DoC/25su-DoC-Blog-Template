@@ -74,7 +74,7 @@ The application converts raw public healthcare data to insights to drive equitab
 Generalist medical practitioners, per 10 000 population:
 
 Dataset Json:
-![image info](./images/dataset1.png)
+![image](./team_posts/images/dataset1.png)
 
 
 **Data Source 2**
