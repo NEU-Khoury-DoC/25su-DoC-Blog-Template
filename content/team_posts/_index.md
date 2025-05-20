@@ -6,7 +6,10 @@ description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "alpberrak"
+  - "elianne_mejia"
+  - "JessicaPoblete"
+  - "mahika_modi"
 showAuthorsBadges : false
 ---
 
