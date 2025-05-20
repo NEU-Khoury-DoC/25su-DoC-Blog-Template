@@ -38,4 +38,4 @@ showAuthorsBadges: false
 
  # Candidate Data Source
  <https://ec.europa.eu/eurostat/databrowser/view/migr_asydcfsta__custom_16723746/default/table?lang=en> 
- ![Asylum Code Proof](/Asylum_code.png)
+ ![Asylum Code Proof](/static/Asylum_code.png)
