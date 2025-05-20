@@ -8,7 +8,7 @@ tags: ["project", "Setup"]
 authors:
   - "aidankelly"
   - "seanbehan"
-  - "gabriellamontalvo
+  - "gabriellamontalvo"
   - "mariasamosrivas"
 showAuthorsBadges: false
 ---
