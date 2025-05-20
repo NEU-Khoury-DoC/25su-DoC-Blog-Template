@@ -58,6 +58,11 @@ The application converts raw public healthcare data to insights to drive equitab
 - As a policymaker, I want to adjust the weighting of the core four factors to align with current policy goals, so I can evaluate areas of policy that may not be as effective as intended.
 - As a policymaker, I want to set target scores for each core factor so I can track my country’s progress in healthcare improvement. 
 
+# Models: 
+**Personalized Scoring Recommendations** - Countries to travel to given the scoring preferences (weights)
+**Clustering** - Group similar healthcare systems
+**Predictive Modeling** - Predict how a country’s score might change in the next 5 years based on trends and present day policy
+**Principal Component Analysis (PCA)** - reduce multi-dimensional healthcare data into 2D plots 
 
 
 # Data Sources: 
