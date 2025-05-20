@@ -86,7 +86,12 @@ Dataset Json:
 **Data Source 2**
 Households impoverished after out-of-pocket healthcare payments
 
+The following dataset displays the percentage of households who are classified as impoverished after
+enduring out of pocket medical payments. This data can serve as a critical factor in determining whether a country's healthcare system is afforable and avaliable for the general population.
+
 Dataset Json: 
 ![image](dataset2.png)
+
+These are two datasets that we would consider impelemting in reference to the factors we aim to focus on, as we also plan on including additional datasets from the World Health Organization throughout the course of this project. We simply chose these datasets to highlight, as they help showcase that we can query from the WHO data warehouse. We will probably have more than 3 datasets for each key factor. 
 
 
