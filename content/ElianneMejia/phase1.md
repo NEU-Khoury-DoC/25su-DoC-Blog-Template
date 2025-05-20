@@ -7,6 +7,9 @@ slug: "blog2"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "eliannemejia"
+  - "JessicaPoblete"
+  - "alpberrak"
+  - "mahikamodi"
 showAuthorsBadges : false
 ---
 
