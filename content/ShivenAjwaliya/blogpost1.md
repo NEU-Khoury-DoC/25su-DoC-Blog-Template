@@ -1,7 +1,7 @@
 ---
 title: "Blog Post 1"
 date: 2025-05-20
-draft: true
+draft: false
 description: "Phase 1 Deliverable Individual"
 slug: "shivenajwaliyablog1"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
