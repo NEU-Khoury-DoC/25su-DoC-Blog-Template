@@ -6,10 +6,10 @@ description: "Our Idea, Data, Personas"
 slug: "phase1post"
 tags: ["project", "Setup"]
 authors:
-  - "aidankelly"
-  - "seanbehan"
-  - "gabbymontalvo"
-  - "mariasamosrivas"
+  - "aidankelly"
+  - "seanbehan"
+  - "gabbymontalvo"
+  - "mariasamosrivas"
 showAuthorsBadges: false
 ---
 
