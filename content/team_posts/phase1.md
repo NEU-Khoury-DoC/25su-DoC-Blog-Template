@@ -70,13 +70,18 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Data Sources: 
 
-**Data Source 1**
+**Data Source 1:**
 Generalist medical practitioners, per 10 000 population:
 
+The following dataset provides the number of general medical practitioners in relation to the total
+population of the country for a list of countries in Europe as well as in neighboring regions.
+This data can serve as a measure of the prevelance of accessabile health services in different countries and regions and can be used in conjuction with other gathered data in order to determine a numerical ranking/evaluation of a countries healthcare system.
+
 Dataset Json:
+
 ![image](./images/dataset1.png)
 
 
-**Data Source 2**
+**Data Source 2:**
 
 
