@@ -7,7 +7,7 @@ slug: "phase1-individual-deliverable" # if you use, needs to be different for ev
 tags: ["authors", "config", "docs"]
 authors:
   - "seanbehan"
-showAuthorsBadges : false
+showAuthorsBadges: false
 ---
 
 # Phase One Contributions
