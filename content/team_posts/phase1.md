@@ -32,13 +32,12 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Personas/Archetypes: 
 ## 1. Student studying _Global Health_
-**Description:** Gale is a student who is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
+**Description:** Gale is a second year student at Northeastern University majoring global health. who is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
-- As a student, I want to generate graphs comparing countries' health system performance, so that I can visually support my claims in presentations.
-- As a student, I want to project changes in, specifically, a country's life expectancy over time, so I can monitor the longevity of the population and the overall health of the population.
-- As a student, I want to track changes in health system performance over time, so that I can assess the impact of past reforms or crises.
+- As a student, I want to generate graphs that compare the performance of healthcare systems across countries over time and predict future trends, so that I can visually reinforce my arguments and present data-driven insights in my presentations.
+- As a student, I want to view the top 3 strengths and weaknesses of a country’s healthcare system, so that I can easily identify the most significant areas of concern and success for each country’s healthcare system.
 
 
 ## 2. Individual moving abroad
@@ -50,7 +49,7 @@ The application converts raw public healthcare data to insights to drive equitab
 - As a traveler, I want to input my chronic condition (e.g., asthma, diabetes) and see if relevant support or medications are accessible abroad, so that I can travel with confidence.
 
 
-## 3. Policymaker analyzing current healthcare installments
+## 3. Policymaker analyzing current healthcare institutions
 **Description:** Nancy is a policy maker who’s aiming to improve upon their nation’s current healthcare policies. They want to analyse how the systems of other countries compare to those of their own in order to identify areas in which their nation can place heavier focus on, as well as point out successful practices from other countries that can be adopted by their nation.
 **User Stories:**
 - As a policymaker, I want to understand where my country lacks in healthcare systems, so that I can better create healthcare legislation for future generations. 
