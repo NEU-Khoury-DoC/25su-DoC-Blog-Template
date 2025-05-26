@@ -27,14 +27,17 @@ persona, Mark.
     * We included a feature that allows users to historical trends of asylum rejection rates by country and citizenship, total received applications per country, asylum decision types, and acceptance rate per applicant demographic group (ie. age, sex, country origin).
 
 # Application Data Model
+## Global ER Diagram
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/00122d2e-26cf-4b2d-b323-85e488f38ce4" id="F_ejIwe8t0XN"></iframe></div>
+
 ## Localized Persona ER Diagrams
 ### Mohammed
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/18640131-cdad-490b-86d5-cbf27b99d843" id="jPbjADkXIf38"></iframe></div>
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/bdcc45e0-9301-4c3e-a8f4-fc0492508b8c" id="t.ejCRtsS0Nl"></iframe></div>
 
 ### Eric
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/d1f4e858-2098-4bb5-930d-6221f9f2c9b0" id=".Qbj9hehO~M5"></iframe></div>
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/84f22a6b-54ea-4171-afe9-62ad01adfd8d" id="Ygfj1ZcDe-SY"></iframe></div>
 
 ### Mark
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/63d55ff0-2e27-4fe4-932e-22672c50a4ca" id="BQbjMI-LKKAN"></iframe></div>
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/4b2cc4d6-3c1a-4f4b-9b3c-cf97f70a00b9" id="6hfjvwmu4BLg"></iframe></div>
 
 
