@@ -39,7 +39,7 @@ Due to increasing global tensions, over 117.3 million people have been displaced
 1. As a German lawyer, I want to access historical trends of asylum rejection rates by country and citizenship, so I can build stronger legal cases by anticipating common grounds for refusal.
 2. As a German lawyer, I want to find which countries are receiving the most applications from specific nationalities, so I can collaborate with local NGOs in those regions to offer targeted legal support..
 3. As a German lawyer, I want to compare asylum decision types (e.g., humanitarian protection vs. subsidiary protection) across countries, so I can better advise clients on the legal pathways most likely to succeed.
-4. As Mark, a German lawyer, I want to identify which age groups of refugees are least likely to receive protection, so that I can focus my legal support on vulnerable populations who may be overlooked.
+4. As a German lawyer, I want to identify which age groups of refugees are least likely to have their applications accepted, so that I can focus my legal support on vulnerable populations who may be overlooked.
 
 
  # Candidate Data Source
