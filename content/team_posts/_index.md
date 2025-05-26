@@ -1,5 +1,5 @@
 ---
-title: "Welcome!"
+title: "Welcome to Team CareCompass!"
 date: 2025-05-11
 draft: false
 description: "Getting to Know Us"
@@ -13,7 +13,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to Team CareCompass!
 
 Hi, We are Team CareCompass! **We make healthcare more accessible for you!** 
 Read on to find out about _our project._

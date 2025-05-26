@@ -10,8 +10,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# About Anoushka Abroal
-
 ## A Brief Introduction
 Passionate and highly motivated Northeastern honors college student interested in 
 research opportunities to collaborate on real world challenges using AI,
