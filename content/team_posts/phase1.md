@@ -32,7 +32,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Personas/Archetypes: 
 ## 1. Student studying _Global Health_
-**Description:** Gale is a student who is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
+**Description:** Gale is a second year student at Northeastern University majoring global health. He is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
@@ -42,22 +42,21 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 ## 2. Individual moving abroad
-**Description:** Archibald Bridgemont is moving abroad! However, he is not entirey sure where yet. who wants to make sure that they will be safe abroad in terms of healthcare security. They can be nervous about all of the potential dangers of traveling, so they want to see if the care they receive is of a good quality. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive.  
+**Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities using clear comparisons and data-backed recommendations. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive.  
 **User Stories:**
-- As a traveler, I want to understand the accessibility of healthcare where I go, so that I can know if I can rely on the healthcare system, even if I stay in a more remote location while traveling. 
-- As a traveler, I want to see whether the target country offers healthcare access for foreigners to determine if any additional travel insurance is necessary to consider. 
-- As a traveler, I want to search for countries by healthcare safety score or reliability, so that I can plan my trips around places with higher health standards.
-- As a traveler, I want to input my chronic condition (e.g., asthma, diabetes) and see if relevant support or medications are accessible abroad, so that I can travel with confidence.
+- As a future resident, want to express my healthcare priorities so that I can receive a personalized list of countries whose healthcare systems best match our needs. 
+- As a future resident, I want to see a visual map showing how well different countries align with my selected health priorities, so I can easily compare options across the region. 
+- As a future resident, I want to explore detailed country profiles with key healthcare insights and contextual information, so I can better understand what living there might be like and make an informed decision.
+- As a future resident, I want to see which countries are most similar to a given one, so I can consider strong alternatives that align with my healthcare priorities.
 
 
-## 3. Policymaker analyzing current healthcare installments
-**Description:** Nancy is a policy maker who’s aiming to improve upon their nation’s current healthcare policies. They want to analyse how the systems of other countries compare to those of their own in order to identify areas in which their nation can place heavier focus on, as well as point out successful practices from other countries that can be adopted by their nation.
+## 3. Policymaker analyzing current healthcare institutions
+**Description:** Nancy is a public health policymaker focused on improving her country’s healthcare system through evidence-based reform. She often looks beyond her borders to understand how other countries perform across key areas like prevention, emergency response, and health infrastructure. She’s especially interested in identifying countries with similar healthcare profiles to explore successful strategies that might translate well locally. Nancy also wants to monitor key health indicators over time and forecast future trends, helping her evaluate the impact of past policies and anticipate where new efforts are most needed. For her, global comparison isn’t just a reference point — it’s a tool for real-world decision-making.
 **User Stories:**
-- As a policymaker, I want to understand where my country lacks in healthcare systems, so that I can better create healthcare legislation for future generations. 
-- As a policymaker, I want to track changes in health system performance over time, so that I can assess the impact of past legislation. 
-- As a policymaker, I want to discern how my country compares to peers in our given region / socioeconomic group.
-- As a policymaker, I want to adjust the weighting of the core four factors to align with current policy goals, so I can evaluate areas of policy that may not be as effective as intended.
-- As a policymaker, I want to set target scores for each core factor so I can track my country’s progress in healthcare improvement. 
+- As a policymaker, I want to select a country and view its performance across core healthcare factors, so I can assess its strengths and weaknesses in key areas like prevention and health infrastructure.
+- As a policymaker, I want to see which countries are most similar to the one I’m analyzing, so I can explore proven strategies from comparable systems.
+- As a policymaker, I want to view how a specific healthcare indicator has changed over time in a given country, so I can evaluate the impact of past policies or reforms.
+- As a policymaker, I want to forecast the future trajectory of a selected healthcare factor, so I can anticipate challenges and plan more effectively.
 
 # Models: 
 **Personalized Scoring Recommendations** - Countries to travel to given the scoring preferences (weights)
