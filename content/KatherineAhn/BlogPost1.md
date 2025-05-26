@@ -10,7 +10,7 @@ authors:
 showAuthorsBadges : false
 ---
 
-For the Phase I deliverable, I worked to finish developing our project topic and organizing the necessary information for the design. By creating an outline of the topic and describing briefly potential users, the group was able to work to communicate our topic with the user archetypes. I completed the project description and aided in discussing/confirming user stories.
+For the Phase I deliverable, I worked to finish developing our project topic and organizing the necessary information for the design. By creating an outline of the topic and describing briefly potential users, the group was able to work to communicate our topic with the user archetypes. I completed the project description and aided in discussing/confirming user stories while ensuring machine learning techniques would be utilized by the personas.
 
 Thus far, the Dialogue has been quite enjoyable! Attempting to take advantage of the good weather while it lasts this week, much of my free time has been spent exploring different parts of Belgium – like roaming the streets of Brussels, trekking to the beautiful city of Bruges, or simply getting some fresh air in Leuven. The beauty of this country and its architecture is a common theme, but what’s more … the renowned waffles!
 

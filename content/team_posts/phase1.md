@@ -32,17 +32,17 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Personas/Archetypes: 
 ## 1. Student studying _Global Health_
-**Description:** This profile is a student who is interested in researching healthcare systems in various countries. They want to make comparisons between systems in order to properly report back to their class and inform them about the benefits and drawbacks of the healthcare systems between countries. They continue with the intention to come up with an ideal (or “the _best_”) healthcare system.
+**Description:** Gale is a student who is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
-- As a student, I want to generate graphs comparing health system performance, so that I can visually support my claims in presentations.
-- As a student, I want to compare healthcare outcomes across income brackets within a country, so that I can analyze inequality in access and quality.
+- As a student, I want to generate graphs comparing countries' health system performance, so that I can visually support my claims in presentations.
+- As a student, I want to project changes in, specifically, a country's life expectancy over time, so I can monitor the longevity of the population and the overall health of the population.
 - As a student, I want to track changes in health system performance over time, so that I can assess the impact of past reforms or crises.
 
 
-## 2. Traveler(s) checking health systems abroad
-**Description:** This profile is a traveler who wants to make sure that they will be safe abroad in terms of healthcare security. They can be nervous about all of the potential dangers of traveling, so they want to see if the care they receive is of a good quality. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive.  
+## 2. Individual moving abroad
+**Description:** Archibald Bridgemont is moving abroad! However, he is not entirey sure where yet. who wants to make sure that they will be safe abroad in terms of healthcare security. They can be nervous about all of the potential dangers of traveling, so they want to see if the care they receive is of a good quality. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive.  
 **User Stories:**
 - As a traveler, I want to understand the accessibility of healthcare where I go, so that I can know if I can rely on the healthcare system, even if I stay in a more remote location while traveling. 
 - As a traveler, I want to see whether the target country offers healthcare access for foreigners to determine if any additional travel insurance is necessary to consider. 
@@ -51,7 +51,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 ## 3. Policymaker analyzing current healthcare installments
-**Description:** This profile is a policy maker who’s aiming to improve upon their nation’s current healthcare policies. They want to analyse how the systems of other countries compare to those of their own in order to identify areas in which their nation can place heavier focus on, as well as point out successful practices from other countries that can be adopted by their nation.
+**Description:** Nancy is a policy maker who’s aiming to improve upon their nation’s current healthcare policies. They want to analyse how the systems of other countries compare to those of their own in order to identify areas in which their nation can place heavier focus on, as well as point out successful practices from other countries that can be adopted by their nation.
 **User Stories:**
 - As a policymaker, I want to understand where my country lacks in healthcare systems, so that I can better create healthcare legislation for future generations. 
 - As a policymaker, I want to track changes in health system performance over time, so that I can assess the impact of past legislation. 
