@@ -36,7 +36,6 @@ Eric is an EU diplomat tasked with finding which countries are in need of aid in
 4. As an EU diplomat, I want to filter data based on specific groups to customize funding to meet the needs of vulnerable populations.
 
 
-
 ## Lawyer
 Mark is a German lawyer seeking pro bono opportunities. He wants to provide legal aid for refugees.  
 
