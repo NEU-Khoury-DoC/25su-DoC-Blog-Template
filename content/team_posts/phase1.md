@@ -95,17 +95,17 @@ Fatalities in road-related instances can be mitigated by looking at the intersec
 
 ## Candidate Data Sources
 
-### Road traffic deaths, by type of roads (via EuroStat)
+### Fuel price levels, US$ /litre (via data360.worldbank)
 
-![Image of calling API and dataframe.head()](RoadDeaths1.png)
-![Image of calling API and dataframe.head()](RoadDeath2.png)
+![Image of calling API and dataframe.head()](fuel_price.png)
+![Image of calling API and dataframe.head()](fuel_price1.png)
 
-**Obeservations:** 35 <br>
-**Numerical Features:** 24 <br>
-**Categorical Features:** 0
+**Obeservations:** 81 <br>
+**Numerical Features:** 2 <br>
+**Categorical Features:** 2 
 
 ### Utility of this data regarding the user personas.
-- Knowing the deaths for each country, by road type, allows a EU Commission Official to <br> advocate for policy regarding saftey of pedestrians and drivers. They are able to better create regulaton of different types of roads per country.
+- Knowing the cost of fuels for each country, by liters, allows a casual roadtripper to <br> plan their route depending on how much the gas costs in each country. They are able to better create regulaton of different types of roads per country.
 
 <br> 
 
