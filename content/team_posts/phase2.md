@@ -6,11 +6,11 @@ description: "Our Idea"
 slug: "phase2post"
 tags: ["project", "Setup"]
 authors:
-    - "eliannemejia"
-    - "JessicaPoblete"
     - "alpberrak"
-    - "mahikamodi"
-showAuthorsBadges: false
+    - "elianne_mejia"
+    - "JessicaPoblete"
+    - "mahika_modi"
+showAuthorsBadges: true
 ---
 
 # Project Updates

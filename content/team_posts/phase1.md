@@ -19,7 +19,6 @@ Due to increasing global tensions, over 117.3 million people have been displaced
  # User Personas
  ## Aslylum Seeker
  Mohammed is a 17 year old boy from Syria. He is a practicing muslim. His parents were recently killed due to bombings in his area and he is seeking asylum with his 5 year old sister and 10 year old brother. 
-
 ### USER STORIES
 1. As a refugee, I want to find accurate information about which countries are accepting the most asylum seekers, with the least amount of pending applications so that I can apply to a country where I have the best chance of getting accepted and getting my application processed quickly.
 2. As a refugee, I want to know which countries have the best education access for refugees so he and his siblings can finish school. 
@@ -34,7 +33,6 @@ Eric is an EU diplomat tasked with finding which countries are in need of aid in
 2. As an EU diplomat, I want to see which countries accept the fewest asylum seekers relative to the number of applications, so I can target support to improve capacity and encourage policy change.
 3. As an EU diplomat, I want to get recommendations based on data for where new humanitarian aid projects would have the most immediate impact.
 4. As an EU diplomat, I want to filter data based on specific groups to customize funding to meet the needs of vulnerable populations.
-
 
 
 ## Lawyer
