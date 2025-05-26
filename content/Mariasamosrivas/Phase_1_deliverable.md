@@ -5,7 +5,7 @@ draft: false
 description: "Maria Samos Rivas phase 1 individual deliverable" 
 slug: "samosrivas_maria"
 tags: ["authors", "config", "docs"]
-authos: 
+authors: 
   - "mariasamosrivas"
 showAuthorBadges: false 
 ---

@@ -1,11 +1,11 @@
 ---
-title: "About Maria Samos Rivas"
-date: 2025-05-013
+title: "About Me"
+date: 2025-05-20
 draft: false
-description: "Maria Samos Rivas is the best!" 
-slug: "aboutmaria"
+description: "Maria Samos Rivas about me!" 
+slug: "samosrivas_maria2"
 tags: ["authors", "config", "docs"]
-authos: 
+authors: 
   - "mariasamosrivas"
 showAuthorBadges: false 
 ---

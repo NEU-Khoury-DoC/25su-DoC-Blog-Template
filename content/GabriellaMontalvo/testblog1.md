@@ -1,6 +1,6 @@
 ---
 title: "About Gabriella Montalvo"
-date: 2025-05-013
+date: 2025-05-13
 draft: false
 description: "Gabby Montalvo so cool!"
 slug: "aboutgabby"
@@ -12,4 +12,4 @@ showAuthorsBadges : false
 
 # About Gabby Montalvo
 
-I love to read, write, and go outdoors! I am very excited to be in Belgium for the summer. Yay DS300 !
+Very excited to be in Belgium for this summer and work on this project! I love reading, writing, and going outdoors. Some topics I'm also passionate about are environmental sustainability, political science, ethics, and incorporating data-driven decision making!
