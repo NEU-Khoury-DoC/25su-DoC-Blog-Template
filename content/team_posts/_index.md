@@ -1,6 +1,6 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-11
+date: 2025-05-11
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
@@ -10,9 +10,9 @@ authors:
   - "elianne_mejia"
   - "JessicaPoblete"
   - "mahika_modi"
-showAuthorsBadges : false
+showAuthorsBadges : true
 ---
 
 # Welcome to Team 10!
 
-Welcome to the Professorial Team's Blog
+Welcome to our Team's Blog!
