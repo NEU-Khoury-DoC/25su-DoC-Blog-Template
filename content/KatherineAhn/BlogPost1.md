@@ -1,5 +1,5 @@
 ---
-title: "Post 1"
+title: Blog Post I"
 date: 2025-05-18
 draft: false
 description: "Blog Post I and more!"

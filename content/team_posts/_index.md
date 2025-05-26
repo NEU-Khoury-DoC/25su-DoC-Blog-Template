@@ -14,7 +14,7 @@ showAuthorsBadges : false
 ---
 
 
-Hi, We are Team CareCompass! **We make healthcare more accessible for you!** 
+Hi, we are Team CareCompass! **We make healthcare more accessible for you!** 
 Read on to find out about _our project._
 
 We want to make healthcare information availible so that the public can understand various countries healthcare:
