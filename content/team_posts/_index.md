@@ -1,15 +1,18 @@
 ---
-title: "Project - Phase I"
-date: 2024-05-11
+title: "Team Deliverables"
+date: 2025-05-26
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
+  - "aidankelly"
+  - "seanbehan"
+  - "gabbymontalvo"
+  - "mariasamosrivas"
 showAuthorsBadges : false
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to the Council of the N.U.
 
-Welcome to the Professorial Team's Blog
+Here are the deliverables for each phase of the project.
