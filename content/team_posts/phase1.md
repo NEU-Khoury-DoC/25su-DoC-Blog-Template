@@ -36,8 +36,9 @@ The application converts raw public healthcare data to insights to drive equitab
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
-- As a student, I want to generate graphs that compare the performance of healthcare systems across countries over time and predict future trends, so that I can visually reinforce my arguments and present data-driven insights in my presentations.
-- As a student, I want to view the top 3 strengths and weaknesses of a country’s healthcare system, so that I can easily identify the most significant areas of concern and success for each country’s healthcare system.
+- As a student, I want to generate graphs comparing countries' health system performance, so that I can visually support my claims in presentations.
+- As a student, I want to project changes in, specifically, a country's life expectancy over time, so I can monitor the longevity of the population and the overall health of the population.
+- As a student, I want to track changes in health system performance over time, so that I can assess the impact of past reforms or crises.
 
 
 ## 2. Individual moving abroad
@@ -51,7 +52,6 @@ The application converts raw public healthcare data to insights to drive equitab
 
 ## 3. Policymaker analyzing current healthcare institutions
 **Description:** Nancy is a public health policymaker focused on improving her country’s healthcare system through evidence-based reform. She often looks beyond her borders to understand how other countries perform across key areas like prevention, emergency response, and health infrastructure. She’s especially interested in identifying countries with similar healthcare profiles to explore successful strategies that might translate well locally. Nancy also wants to monitor key health indicators over time and forecast future trends, helping her evaluate the impact of past policies and anticipate where new efforts are most needed. For her, global comparison isn’t just a reference point — it’s a tool for real-world decision-making.
-
 **User Stories:**
 - As a policymaker, I want to select a country and view its performance across core healthcare factors, so I can assess its strengths and weaknesses in key areas like prevention and health infrastructure.
 - As a policymaker, I want to see which countries are most similar to the one I’m analyzing, so I can explore proven strategies from comparable systems.
@@ -69,6 +69,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 # Data Sources: 
+For our data sources, we have pulled together a variety of features that will be further explored through our Machine Learning Models. We list two of the data sources below as examples of our ability to successfully access the data. 
 
 **Data Source 1:**
 Generalist medical practitioners, per 10 000 population:
@@ -78,7 +79,7 @@ population of the country for a list of countries in Europe as well as in neighb
 This data can serve as a measure of the prevelance of accessabile health services in different countries and regions and can be used in conjuction with other gathered data in order to determine a numerical ranking/evaluation of a countries healthcare system.
 
 Dataset Json:
-![image](dataset1.png)
+![image](Practioner_dataframe.png)
 
 
 
@@ -89,8 +90,19 @@ The following dataset displays the percentage of households who are classified a
 enduring out of pocket medical payments. This data can serve as a critical factor in determining whether a country's healthcare system is afforable and avaliable for the general population.
 
 Dataset Json: 
-![image](dataset2.png)
+![image](impoverished_dataFrame.png)
 
 These are two datasets that we would consider impelemting in reference to the factors we aim to focus on, as we also plan on including additional datasets from the World Health Organization throughout the course of this project. We simply chose these datasets to highlight, as they help showcase that we can query from the WHO data warehouse. We will probably have more than 3 datasets for each key factor.     
+
+Other datasets include:
+- Life expectancy in Years, from the WHO data warehouse 
+- Infant Mortality Rates, from the WHO data warehouse 
+- Total Health Expenditure, from the WHO data warehouse
+- Catastrophic Health Spending in all wealth classes, from the WHO data warehouse
+- Percentage of children vaccinated against measles, from the WHO data warehouse
+- Live births per 100 population, from the WHO data warehouse 
+- Percentage of Overweight and Obese children, from the WHO data warehouse
+- Life Satisfaction Score (Scale 1-10), from the WHO data warehouse
+- Healthcare "Scores" for countries, based on a myriad of features from the Global Health Index 
 
 
