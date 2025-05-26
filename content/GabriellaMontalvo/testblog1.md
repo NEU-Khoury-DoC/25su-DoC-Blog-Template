@@ -1,6 +1,6 @@
 ---
 title: "About Gabriella Montalvo"
-date: 2025-05-013
+date: 2025-05-13
 draft: false
 description: "Gabby Montalvo so cool!"
 slug: "aboutgabby"
