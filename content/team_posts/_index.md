@@ -13,6 +13,6 @@ authors:
 showAuthorsBadges : false
 ---
 
-# Welcome to the Council of the N.U.
+## Welcome to the Council of the N.U.
 
 Here are the deliverables for each phase of the project.
