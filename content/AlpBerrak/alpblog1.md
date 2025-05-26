@@ -1,6 +1,6 @@
 ---
 title: "About Alp Berrak"
-date: 2024-05-18
+date: 2025-05-14
 draft: false
 description: "my first blog"
 slug: "aboutalp"   # if you use, needs to be different for every post
