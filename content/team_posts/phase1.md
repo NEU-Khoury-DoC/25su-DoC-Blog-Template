@@ -80,7 +80,7 @@ population of the country for a list of countries in Europe as well as in neighb
 This data can serve as a measure of the prevelance of accessabile health services in different countries and regions and can be used in conjuction with other gathered data in order to determine a numerical ranking/evaluation of a countries healthcare system.
 
 Dataset Json:
-![image](dataset1.png)
+![image](Practioner_dataframe.png)
 
 
 
@@ -91,7 +91,7 @@ The following dataset displays the percentage of households who are classified a
 enduring out of pocket medical payments. This data can serve as a critical factor in determining whether a country's healthcare system is afforable and avaliable for the general population.
 
 Dataset Json: 
-![image](dataset2.png)
+![image](impoverished_dataFrame.png)
 
 These are two datasets that we would consider impelemting in reference to the factors we aim to focus on, as we also plan on including additional datasets from the World Health Organization throughout the course of this project. We simply chose these datasets to highlight, as they help showcase that we can query from the WHO data warehouse. We will probably have more than 3 datasets for each key factor.     
 
