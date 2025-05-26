@@ -1,3 +1,15 @@
+---
+title: "Phase 1 Deliverable"
+date: 2025-05-18
+draft: false
+description: "Phase 1 Individual Deliverable"
+slug: "phase1alp"   # if you use, needs to be different for every post
+tags: ["authors", "config", "docs"]
+authors:
+  - "alpberrak"
+showAuthorsBadges : false
+---
+
 # Phase One Blog Post
 ## Contents
 - Life in Leuven
@@ -14,5 +26,6 @@ I have also been given the gracious opportunity to tour the EU Parliament as wel
 
 For the project, this phase, I, along with my team, found interesting datasets on asylum seekers, drafted/formed/wrote the question, and formed the persona questions. I also wrote all the user stories for the second persona (The EU Diplomat)
 
-![alt text](image.png)
-![alt text](image-1.png)
+
+![EUParliment](/euparl.png)
+![Bruges](/bruges.png)
