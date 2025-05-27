@@ -28,6 +28,24 @@ At the end of Phase I, we had gathered data from two datasets, households impove
 We have visualized a couple of the datasets in different ways as they relate to the wireframes that we plan to implement: 
 We have visualized a couple of the datasets in different ways as they relate to the wireframes that we plan to implement: 
 
+## GHS Index Dataframe:
+![image](Health_Score_Dataframe.png)
+
+## Barchart:
+![image](Healthscore_Barchart.png)
+
+## Line Graphs:
+![image](Expenditure_Line_Graph.png)
+![image](impoverished_linegraph.png)
+
+## Scatter Plots:
+![image](Practitioners_Expenditure_Scatterplot.png)
+![image](Antimicrobial_Resistance_Scatterplot.png)
+
+
+
+
+
 # ER Diagrams:
 Below are localized ER diagrams for each personna: the green diagram corresponding to the mover Archibald, red diagram corresponding to the student Gale, and the blue diagram corresponding to the policymaker Nancy.
 
