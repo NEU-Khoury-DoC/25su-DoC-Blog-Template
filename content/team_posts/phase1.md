@@ -18,7 +18,7 @@ Due to increasing global tensions, over 117.3 million people have been displaced
 
  # User Personas
 
- ## Aslylum Seeker
+ ## Asylum Seeker
  Mohammed is a 17 year old boy from Syria. He is a practicing muslim. His parents were recently killed due to bombings in his area and he is seeking asylum with his 5 year old sister and 10 year old brother. 
 ### USER STORIES
 1. As a refugee, I want to find accurate information about which countries are accepting the most asylum seekers, with the least amount of pending applications so that I can apply to a country where I have the best chance of getting accepted and getting my application processed quickly.
