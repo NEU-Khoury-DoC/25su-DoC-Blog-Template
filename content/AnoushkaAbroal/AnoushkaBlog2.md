@@ -20,7 +20,7 @@ In addition to cleaning the data so that they were each in a dataframe with colu
 
 Outside of the project, I have gained a better footing on linear algebra concepts and linear regression concepts in DS 3000. We learned the motivations behind vector-matrix multiplication, and how you can use those concepts with intercepts and slope to make a line of best fit as a regression model. We also began to learn about binary classification, and how we can apply linear algebra to make a line that evenly splits the data based on a category that we assign to a numerical value (-1 or 1). 
 
-In other news, I have learned a lot more and experienced Belgium more since the time of my last post. I visited Brugge and Antwerp on my free days, and visited some historical museums that allowed me to learn a lot more about Belgium's past, culture, and relation to international affairs. I also enjoyed listening to speakers at the European Commission, and creating some delicious Belgian baked goods/treats. 
+In other news, I have learned a lot more and experienced Belgium more since the time of my last post. I visited Brugges and Antwerp on my free days, and visited some historical museums that allowed me to learn a lot more about Belgium's past, culture, and relation to international affairs. I also enjoyed listening to speakers at the European Commission, and creating some delicious Belgian baked goods/treats. 
 
 ![image](anoushBlog2.heic)
 
