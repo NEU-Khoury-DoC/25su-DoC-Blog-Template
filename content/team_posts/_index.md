@@ -1,15 +1,18 @@
 ---
 title: "Project - Phase I"
-date: 2024-05-11
+date: 2025-05-11
 draft: false
 description: "Our Idea"
 tags: ["authors", "config", "docs"]
 slug: "index"
 authors:
-  - "eric_gerber"
-showAuthorsBadges : false
+  - "alpberrak"
+  - "elianne_mejia"
+  - "JessicaPoblete"
+  - "mahika_modi"
+showAuthorsBadges : true
 ---
 
-# Welcome to Team WeCanDoThis!
+# Welcome to Team 10!
 
-Welcome to the Professorial Team's Blog
+Welcome to our Team's Blog!
