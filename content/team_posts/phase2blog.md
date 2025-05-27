@@ -58,6 +58,7 @@ We have visualized a couple of the datasets in different ways as they relate to 
 
 
 # ER Diagrams, Relational Diagram, SQL DDL:
+
 Below are localized ER diagrams for each personna: the green diagram corresponding to the mover Archibald, red diagram corresponding to the student Gale, and the blue diagram corresponding to the policymaker Nancy.
 
 ![image](moverER.png)
