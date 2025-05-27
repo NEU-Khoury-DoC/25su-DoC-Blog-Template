@@ -1,5 +1,5 @@
 ---
-title: "Phase 1"
+title: "Phase 2"
 date: 2025-05-27
 draft: false
 description: "First Blog"
