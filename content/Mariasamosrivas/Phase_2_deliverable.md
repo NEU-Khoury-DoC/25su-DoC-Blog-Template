@@ -1,5 +1,5 @@
 ---
-title: "Phase 1 Deliverable"
+title: "Phase 2 Deliverable"
 date: 2025-05-27
 draft: false
 description: "Maria Samos Rivas phase 2 individual deliverable" 
