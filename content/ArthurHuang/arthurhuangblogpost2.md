@@ -17,6 +17,8 @@ For DS3000, we learned linear algebra basics such as matrix multiplication and p
 
 On a more leisurely note, my friends and I played lots of pool this week and had lots of fun revisiting the game (even though I’m not very good). We also enjoyed walking the streets of Namur, and would have liked to check out the Citadel if we had more time. On my free day, I made a trip to Antwerp and visited the Royal Museum of Fine Arts, the Antwerp Museum, and the Het Steen which is the oldest building in Belgium.
 
+![Antwerp](Blogpost2.png)
+
 
 
 
