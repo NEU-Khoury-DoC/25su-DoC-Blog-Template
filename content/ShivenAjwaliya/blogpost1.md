@@ -16,5 +16,5 @@ So far, I’ve had a great time in Belgium, and I think one of the most valuable
 
 CS3200 has also been going decently well. We haven’t had that many sessions yet, but in the time we have, I’ve definitely learned more about SQL and data structures than I expected in such a short span.
 
-![Our Visit to the EU Commission](https://imgur.com/a/gdJrfQo)
+![Our Visit to the EU Commission](https://i.imgur.com/buFKbtZ.jpeg)
 
