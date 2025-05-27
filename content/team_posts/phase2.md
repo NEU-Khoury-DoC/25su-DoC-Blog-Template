@@ -30,24 +30,24 @@ persona, Mark.
 > You can click onto the embedded window to zoom in and interact with the ER Diagram
 ## Global ER Diagram
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/00122d2e-26cf-4b2d-b323-85e488f38ce4" id="F_ejIwe8t0XN"></iframe></div>
-This is our Global Entity Relationship Diagram. We have combined all three of the following ERDs to demonstrate how every entity and user connects to one another.
+> This is our Global Entity Relationship Diagram. We have combined all three of the following ERDs to demonstrate how every entity and user connects to one another.
 
 ## Localized Persona ER Diagrams
 ### Mohammed
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/bdcc45e0-9301-4c3e-a8f4-fc0492508b8c" id="t.ejCRtsS0Nl"></iframe></div>
-This is the ERD for our Asylum Seeker user persona. It includes a user's country, religion, education level, and application decision.
+> This is the ERD for our Asylum Seeker user persona. It includes a user's country, religion, education level, and application decision.
 
 ### Eric
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/4b2cc4d6-3c1a-4f4b-9b3c-cf97f70a00b9" id="6hfjvwmu4BLg"></iframe></div>
-This is the ERD for our EU diplomat user persona. It includes a diplomat, an asylum seeker, and the amount of money/aid directed towards helping refugees.
+> This is the ERD for our EU diplomat user persona. It includes a diplomat, an asylum seeker, and the amount of money/aid directed towards helping refugees.
 
 ### Mark
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/84f22a6b-54ea-4171-afe9-62ad01adfd8d" id="Ygfj1ZcDe-SY"></iframe></div>
-This is the ERD for our Lawyer user persona. It includes a lawyer, an asylum seeker, and the pro bono opportunities that are available.
+> This is the ERD for our Lawyer user persona. It includes a lawyer, an asylum seeker, and the pro bono opportunities that are available.
 
 
 ## Application DDL 
-["openport_db.sql"](/openport_db.sql)
+["openport_db.sql"](https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql)
 
 # Datasets
 
