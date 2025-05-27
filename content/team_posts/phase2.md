@@ -26,7 +26,6 @@ Through the duration of Phase two our team realized that with our initial design
 Since our focus for the project went from road deaths/road saftey to developing a data driven driven european tourism platform, the data also needed to change. In light of this, our group found a variety of new data for road congestion (number of cars on road), road spending by GDP, average fuel price, and tourism participation. These new data sets allow us to develop the tourism driven app around the 3 personas while also being unique to the 3 of them. 
 
 These changes can be viewed in more detail in the phase one deliverable <br>
-[View Phase One Deliverable](phase1.md)
 
 # Phase II Deliverable
 The main focus of this phase of the project was to thoughtfully explore potential features that could be implemented in the app, based on the cleaned data and the data models developed by our group.
@@ -67,3 +66,9 @@ This is the second feature the user can encounter when signed in as the European
 
 ## Global and Persona ER Models
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/b232c25c-6c0f-44d9-99cc-d8ebb671822c" id="rFzj1BL4b9vs"></iframe></div>
+Use the cusor to zoom in/out or use the plus and minus sign (in order to see all the models). For clearity, the researcher is the same as the Global data model as the researcher can view all the data for a variety of her studies 
+<br>
+
+## Inital MySQL DDL Model
+![mySQL DDL inital code](mySQLDDL.png)
+Here is the link the to code of the Inital MySQL DDL model <br> [Link to mySQL DDL Code ](https://drive.google.com/file/d/1dUJhlQq0w4GWwUo47a5TZEtMl-E3PAmh/view?usp=sharing)
