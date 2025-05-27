@@ -49,6 +49,21 @@ persona, Mark.
 ## Application DDL 
 ["Click_Here"](https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql)
 
+# Wireframe Drafts
+
+## Home Screen
+["homeScreen"](/homeScreen.pdf)
+
+## Refugee Persona
+["refugee_screens"](/refugeeScreens.pdf)
+
+## Lawyer Persona
+["lawyer_screens"](/LawyerScreens.pdf)
+
+## Diplomat Persona
+["diplomat_screens"](/diplomatScreens.pdf)
+
+
 # Datasets
 
 ## Dataset: Social Spending Dataset EDA 
