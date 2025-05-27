@@ -1,6 +1,6 @@
 ---
 title: "Project - Phase II"
-date: 2024-05-27
+date: 2025-05-27
 draft: false
 description: "Our Idea"
 slug: "phase2post"
