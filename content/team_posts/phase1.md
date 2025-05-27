@@ -64,6 +64,7 @@ Used to match users with countries whose healthcare systems align most closely w
 
 Used by: Future Resident, Policymaker
 Feature link: Slider-based input → ranked list of top-matching countries
+
 **2. Predictive Modeling: Indicator Forecasting**
 Used to project future values for specific healthcare indicators (e.g., life expectancy, hospital access scores) based on historical trends. This supports forward-looking insights for both students and policymakers.
 
