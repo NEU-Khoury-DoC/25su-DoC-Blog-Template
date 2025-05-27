@@ -13,81 +13,90 @@ authors:
 showAuthorsBadges: false
 ---
 
-# ASMG Project Introduction: Road Safety
+# EuroTour: Data Driven European Tourism Platform
 
 ## Project Description
-
-Since automobiles became common in the early 1900s, automobiles have been one of the leading non-natural causes of death for humans across the developed world. Additionally, they have posed major safety and injury concerns beyond just deaths. In a world reliant on automobiles for travel, governments and independent agencies have continuously worked to make roads safer for all users, but their efforts still leave a lot of room for improvement. We are building an application to help address this problem by identifying patterns and attributes of roads across Europe that result in a larger number of accidents and fatalities. This application will consider data like car accidents, road deaths, road infrastructure spending, road quality, and road density for each country. With this information, users will be able to determine whether the roads and travel methods they plan to take are truly safe or if they should find an alternate route, and help governments determine which types of roads they should build more of to keep their citizens safe.
+This project delivers a data driven web app that leverages machine learning and country level European datasets. The app is uniquely structured via a diverse range of users interested in road-based travel, infrastructure, and tourism planning. It centers around three primary personas: casual road trippers, national tourism officials, and academic researchers.  <br><br>
+For casual travelers, the app acts as a smart trip advisor. It generates a ranked list of countries based on predicted travel ease and enjoyment.  Using a machine learning model trained on variables such as fuel prices, traffic congestion, and road quality. Users can compare countries and plan optimal routes through regions that balance affordability, access, and attractions. <br><br>
+For national officials, the app becomes a policy insight tool. It enables benchmarking of their country's road and tourism infrastructure against EU peers. An ML model predicts tourism growth based on road investment, fuel trends, and travel prioritization metrics. This will help officials allocate funding and shape tourism campaigns. <br><br>
+Researchers from institutions like KU Leuven use the app to access and analyze multi-year datasets for academic projects. They explore longitudinal trends in tourism and sustainability, using advanced tools that allow them to filter, visualize, and export data for modeling, correlation studies, and publications. This application unifies diverse goals into one intelligent, accessible platform for travel, policy, and research.
 
 ## Overall Problem
-Fatalities in road-related instances can be mitigated by looking at the intersection of deaths with infrastructure spending, and provide meaningful information to address adjustments in monetary allocation, density and road quality correlation, and general safety for citizens of all kinds.
+Despite the vast amount of public data on tourism and road infrastructure within the E.U., there is no unified platform that transforms this information into a meaningful guidance tool for a diverse range of users. Casual road trippers often struggle to plan efficient/affordable trips due to overly technical datasets on road quality, traffic, and travel costs. <br><br>
+Meanwhile, national officials tasked with promoting tourism and improving infrastructure lack accessible tools to benchmark their country’s performance, predict tourism trends, or assess the effectiveness of public investment in transportation. Academic researchers face yet another barrier: while they need historical and comparative data for modeling and publication, much of the available information is fragmented or lacks interoperability.
 
 
 ## User Personas
 
-### EU Commission Official (Garret Warshaw)
+### European Traveler (Jacques Bon-voyage)
 
-**ROLE**: Senior policymaker in sustainable transport infrastructure for the European Commission.
+![Image of European Traveler](traveler.jpg)
+
+**ROLE**: Casual tourist seeking a affordable and enjoyable travel experiences across Europe.
 | GOALS | FRUSTRATIONS |
 |---|---|
-| -Reduce road fatalities<br> and serious injuries<br><br>-Use road quality scores <br> to guide funding decisions<br><br>-Promote equitable <br> infrastructure investment <br> across all member states | -Political resistance <br> to redistributing funds<br><br>-Gaps in reliable and <br> comparable road data<br><br>-Funding disparities <br> between regions<br><br>-Slow implementation <br>of safety policies |
+| -Ranking countries for <br> road trips based on personal <br> prioritization<br><br>-Showcase most popular <br> tourism attractions within<br> country via prioritization<br> <br>-Display predicted traffic trends<br> for country of travel. | -No interconnected way to <br> plan a trip abroad based <br> on personal preference<br><br>-No way to predict traffic time<br> in the future while planning<br><br>-Hard to get a concrete ranking <br> of popular tourist attratcions |
 
-### “As an EU Commission Official…
-  - I want to use road quality scores to compare member <br> states so that funding decisions are based on objective need.
+### “As European Traveler...
+  - I want to rank countries for road trips based on my <br> personal travel preferences so that I can choose <br> destinations that match my style.
   <br>
 
-  - I want to highlight low-scoring regions in reports <br> so that I can push for more investment and reform.
+  - I want to see the top tourist attractions prioritized <br> by popularity so that I know what’s worth visiting <br> in each country.
   <br>
 
-  - I want to monitor changes in national road scores <br> over time so that I can evaluate policy impact.
+  - I want a single, easy-to-use platform that helps me <br> plan my trip abroad according to what matters most <br> to me.
   <br>
 
-  - I want to incentivize improvements in infrastructure <br> through score benchmarks so that member states stay accountable.
+  - I want future traffic estimates while planning so that <br> I don’t get surprised by unexpected delays.
 
 <br>
 <br>
 
-### European citizen (Aoife Lynch)
+### National Director of Tourism (Nina Petek)
 
-**ROLE**: Freelance nature photographer based in Ireland who frequently drives to remote and <br> rural areas across the EU for assignments.
+![Image of National Director](official.jpg)
+
+**ROLE**: Director of improving, funding and enhancing tourism throughout Slovenia
 | GOALS | FRUSTRATIONS |
 |---|---|
-| -Travel safely for work<br><br>-Use safety scores <br> to choose routes<br><br>-Avoid poor-quality <br> rural roads<br><br>-Plan shoots in <br> better-maintained regions | -No easy way to <br> compare road safety by country<br><br>-Unexpected hazards <br> on rural routes<br><br>-Low investment in <br> remote nature areas<br><br>-Inconsistent safety <br> across borders |
+| -View trends of tourism in regards to<br> GDP spending.<br><br>-Predict future tourism interest in <br> Slovenia<br> <br>-View trends for gas prices and <br> traffic to understand tourism patterns | -Lack of clear, comparable benchmarks <br> for evaluating Slovenia’s tourism <br> performance against other EU countries<br><br>-Limited ability to anticipate <br> sudden changes in gas prices or <br> traffic disruptions that affect <br> tourist flow<br><br>-No interconnected way to view all these<br> benchmarks and data |
 
-### “As a Nature Photographer…
-  - I want to see safety scores for each country so that <br> I can choose safer destinations for my photo trips.
+### “National Director of Tourism…
+  - I want to see how tourism trends relate to GDP spending <br> for E.U. countries so that I can evaluate the impact of investments.
   <br>
 
-  - I want to avoid countries or regions with low scores <br> so that I don’t risk delays or vehicle damage.
+  - I want to predict future tourism interest in Slovenia <br> so that I can plan funding and marketing efforts effectively.
   <br>
 
-  - I want to use the scores to push for better rural <br> infrastructure so that all regions get fair investment.
+  - I want to monitor gas prices and traffic trends to <br> understand how they affect travel patterns and visitor numbers.
   <br>
 
-  - I want to plan routes through high-scoring areas  <br> so that I travel with more peace of mind.
+  - I want a single platform that integrates all relevant <br> data and benchmarks so that I can make informed decisions quickly.
 
   <br>
   <br>
 
 
-### Professional Trip Planner (Marcus Ellis)
+### European Tourism Researcher (Ellie Willems)
 
-**ROLE:** Professional itinerary designer crafting custom multi-country road trips across Europe
+![Image of European Tourism Researcher](researcher.jpg)
+
+**ROLE:** A graduate reseacher at KU Leuven that aims to study trends regarding tourism in the E.U.
 | GOALS | FRUSTRATIONS |
 |---|---|
-| -Leverage country-level <br> road quality scores<br><br>-Plan routes that maximize<br> safety and comfort<br><br>-Showcase well maintained <br>scenic roads | -Lack of reliable road <br> quality insights per country<br><br>-Time-consuming cross <br> border data gathering<br><br>-Surprises from poor <br> road conditions en route |
+| -View trends based on her research (can <br> select a variety of indicators and <br> time periods to customize the analysis)."<br><br>-Download data/ trends for reports or <br> papers<br> <br>-Saving notes and research within the app <br> which automatically generates tags to <br> organize her work for easy retrieval<br> and simplicity.  | -Limited flexibility in selecting <br> specific indicators or time periods <br> for nuanced analysis<br><br><br>-Difficulty ensuring downloaded <br> data is in a format compatible <br> with academic tools<br><br>-Risk of losing notes or saved <br> research due to lack of reliable <br> syncing or backup. |
 
-### “As a Professional Trip Planner…
-  - I want to see each country’s road quality score so that I <br> can prioritize safer nations in multi-country itineraries.
+### “As a European Tourism Researcher...
+  - I want to customize my analysis by selecting specific indicators <br> and time ranges so that my research reflects my goals
   <br>
 
-  - I want to filter destinations by a minimum score threshold so <br> that clients only visit regions with reliable infrastructure.
+  - I want to download datasets and visualizations in academic <br> friendly formats so that I can easily include them in reports and papers
   <br>
 
-  - I want timely updates to country scores so that my plans adapt <br> to recent infrastructure improvements.
+  - I want to save my notes and research within the app so that <br> everything stays organized and easily accessible.
   <br>
 
-  - I want to export score-backed route summaries so that I can <br> provide clients with transparent safety justifications.
+  - I want the app to automatically tag and categorize my saved <br> work so that I can quickly find related projects and avoid redundancy.
 
   <br>
   <br>
