@@ -24,7 +24,7 @@ We are building an application that helps users explore and evaluate the healthc
 - Compliance with International Norms
 - Risk Environment
 
-We are utilizing the Global Health Security Index, which provides a standardized scoring system across six core healthcare factors to generate a composite assessment for each country. Rather than allowing users to customize weights directly, we leverage the index to implement a machine learning model using k-nearest neighbors (k-NN). This enables users to express their healthcare priorities through sliders, which are transformed into a preference vector and compared against normalized country data to identify the most similar healthcare systems.
+We are utilizing the Global Health Security Index, which provides a standardized scoring system across six core healthcare factors to generate a composite assessment for each country. Rather than allowing users to customize weights directly, we leverage the index to implement a machine learning model using k-nearest neighbors (k-NN). This enables users to express their healthcare priorities through sliders, which are transformed into a preference vector and compared against normalized country data to identify the most similar healthcare systems. Additionally, users can optionally select a country of origin. When enabled, recommendations blend similarity to that country with the user’s stated preferences to deliver context-aware results.
 
 The resulting country matches are visualized through ranked comparisons, interactive heat maps, and a side-by-side comparison tool for exploring differences in key health indicators. In addition, users can track how selected indicators have changed over time and view predictive forecasts for future performance, offering a forward-looking perspective based on historical trends.
 
@@ -45,11 +45,12 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 ## 2. Individual moving abroad
-**Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities using clear comparisons and data-backed recommendations. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive. 
+**Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities, and optionally, ones that resemble the healthcare system he’s used to. This dual approach helps him find a country that balances both comfort and ideal care. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive. 
 
 
 **User Stories:**
 - As a future resident, want to express my healthcare priorities so that I can receive a personalized list of countries whose healthcare systems best match our needs. 
+- As a future resident, I want to optionally include my current country in the matching process, so that recommendations reflect both my preferences and familiarity with my existing system.
 - As a future resident, I want to see a visual map showing how well different countries align with my selected health priorities, so I can easily compare options across the region. 
 - As a future resident, I want to explore detailed country profiles with key healthcare insights and contextual information, so I can better understand what living there might be like and make an informed decision.
 - As a future resident, I want to see which countries are most similar to a given one, so I can consider strong alternatives that align with my healthcare priorities.
@@ -67,7 +68,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Models: 
 **1. k-Nearest Neighbors (k-NN): Personalized Country Matching**
-Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses k-NN to calculate similarity between the user’s input and each country’s normalized profile.
+Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses k-NN to calculate similarity between the user’s input and each country’s normalized profile. Users can also enable a mode that blends similarity to a selected origin country with their preferences. This allows for personalized recommendations that balance familiar healthcare systems with their desired system attributes.
 
 Used by: Future Resident, Policymaker
 Feature link: Slider-based input → ranked list of top-matching countries
