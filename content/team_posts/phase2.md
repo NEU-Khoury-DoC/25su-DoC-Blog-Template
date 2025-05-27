@@ -93,3 +93,17 @@ Explanation of Choices:
 - Again, with consideration for our user personas, our Road Tripper/Traveler might benefit more from this kind of vizualization.
 - While the scatterplot might require a more detailed eye to pick up on what the sizes of each dot mean, what causes it to vary, and a stronger critical thinking process about how the two features interact, a simple bar chart can be easier to the untrained eye.
 - A more casual persona such as our Road Tripper would be more inclined to observe a visualization like this where the differences and interaction is easier to observe.
+
+## Reasoning For Data Visualization
+
+### Road Density Data
+![road density picture](road_density.png)
+We chose a funnel chart to represent the road density across countries because of how visually intuitive it is. The chart arranges countries from those with the least dense road networks at the top to the most dense at the bottom. This layout helps highlight major differences at a glance. For someone planning a trip, this type of chart can offer a quick way to spot which countries might have more congested road systems, potentially influencing travel choices.
+
+### GDP and Road Spending Data 
+![gdp vs road spending graph](GDP_vs_Road_Spending_per_country.png)
+Since the dataset included several key variables, we thought an interactive scatter plot would be the clearest way to break it down. On the x-axis, we placed each country’s GDP, while the y-axis shows how much they spend on their roads. We also sized the dots based on GDP, which makes it easier to visually compare the countries. To help viewers follow along, each country is shown in a different color, allowing patterns and outliers to stand out more clearly as they move the bar at the bottom signaling the years.
+
+### Country Priotization of Travel and Tourism Data 
+![Country Priotization of Travel and Tourism](Country_Priotization_of_Travel_and_Tourism_Score_(1-7).png)
+Our goal with this dataset was to make it easy to compare how each country’s prioritization of travel and tourism has changed over time. To do that, we used a bar chart with the prioritization scores (on a scale from 1 to 7) along the x-axis and the country names listed on the y-axis. Each year is represented by a different color within the bars, so viewers can quickly spot changes and trends. This kind of visual is especially useful for travelers who want to understand which countries are putting more emphasis on supporting tourism.
