@@ -15,6 +15,8 @@ showAuthorsBadges: false
 
 # EuroTour: Data Driven European Tourism Platform
 
+![Image of European landmarks](european_image.jpg)
+
 ## Project Description
 This project delivers a data driven web app that leverages machine learning and country level European datasets. The app is uniquely structured via a diverse range of users interested in road-based travel, infrastructure, and tourism planning. It centers around three primary personas: casual road trippers, national tourism officials, and academic researchers.  <br><br>
 For casual travelers, the app acts as a smart trip advisor. It generates a ranked list of countries based on predicted travel ease and enjoyment.  Using a machine learning model trained on variables such as fuel prices, traffic congestion, and road quality. Users can compare countries and plan optimal routes through regions that balance affordability, access, and attractions. <br><br>
@@ -104,90 +106,57 @@ Meanwhile, national officials tasked with promoting tourism and improving infras
 
 ## Candidate Data Sources
 
-### Fuel price levels, US$ /litre (via data360.worldbank)
+### Fuel price levels, US Dollars per litre (via data360.worldbank)
 
-![Image of calling API and dataframe.head()](fuel_price.png)
-![Image of calling API and dataframe.head()](fuel_price1.png)
+![Image of raw api for fuel data 1](fuel_price.png)
+![Image of raw api for fuel data 2](fuel_price1.png)
 
 **Obeservations:** 81 <br>
 **Numerical Features:** 2 <br>
 **Categorical Features:** 2 
 
 ### Utility of this data regarding the user personas.
-- Knowing the cost of fuels for each country, by liters, allows a casual roadtripper to <br> plan their route depending on how much the gas costs in each country. They are able to better create regulaton of different types of roads per country.
+- Knowing the fuel cost per liter in each country helps a casual road tripper weigh whether they value saving money on travel or reaching their destination more quickly. The model can generate an ranking of the most
+relevant countries based on the users informed decsion.
+
+- Fuel prices affect how easily tourists can travel. By tracking these trends, a national tourism director can better understand when and why visitor numbers go up or down.
+
+- Fuel price data helps a European Tourism Researcher study how changes in travel costs impact tourism trends across countries over time. This gives her insights into economic and behavioral patterns in European tourism and gives her another aspect of study regarding tourism.
 
 <br> 
 
-- Knowing the deaths for each country, by road type, allows a European citizen to <br> avoid roads that may be dangerous when traveling around each country.
+### Road Congestion (via EuroStat)
 
-<br> 
+![Image of raw api for passenger data 1](passenger-data1.png)
+![Image of raw api for passenger data 2](passenger-data2.png)
 
-- Knowing the deaths for each country, by road type, allows a Professional Trip Planner <br> to plan accordingly in favor of their clients depending on their concerns.
-
-<br> 
-
-### Road Quality by Country (via data360.worldbank)
-
-![Image of calling API and dataframe.head()](RoadQual1.png)
-![Image of calling API and dataframe.head()](RoadQual2.png)
-
-**Obeservations:** 118 <br>
-**Numerical Features:** 3 <br>
-**Categorical Features:** 0
+**Obeservations:** 6765 <br>
+**Numerical Features:** 1 <br>
+**Categorical Features:** 4
 
 ### Utility of this data regarding the user personas.
-- Knowing the road quality by country allows a EU Commission Official to <br> advocate for policy regarding better regulaton of different types of roads per country.
+- Knowing the road congestion for a European Traveler will allow the user to make an informed decison on what they value more, saving money or saving time.
 
+- Knowing the road congestion for a National Director of Tourism will allow the user to understand why certain countries have higher tourism numbers and how traffic conditions may impact the overall travel experience, helping guide infrastructure improvements and promotional efforts
+
+- Knowing the road congestion for a European Tourism Researcher will allow the user to analyze how transportation factors influence tourism patterns and to identify correlations between infrastructure strain and visitor behavior across countries. She can then use this data by downloading it
+or writing about it in the app
 <br> 
 
-- Knowing the road quality allows a European citizen to <br> avoid countries that may have less developed roads or are of less quality in hopes to preserve their car and safety.
+### Trips By Duration (via EuroStat)
 
-<br> 
+![Image of trips by durations 1](tripsbyduration.png)
+![Image of trips by durations 2](tripsbyduration2.png)
 
-- Knowing the road quality allows a Professional Trip Planner <br> to filter countries that are not ideal for travel when concerining car sustainability and saftey.
-<br> 
-
-### Transport spending by country and year (via OECD)
-
-
-``` # Base URL
-base_url = "https://sdmx.oecd.org/public/rest/data"
-
-# Modifiers
-agency = "OECD.ITF"
-dataset = "DSD_INFRINV@DF_INFRINV"
-version = "1.0"  # Assuming version 1.0, could be different
-dimensions = ".A.INV.EUR.ROAD.V"
-
-# Parameters
-params = {
-    "startPeriod": "1995",
-    "endPeriod": "2023",
-    "dimensionAtObservation": "AllDimensions",
-    "format": "jsondata"
-}
-
-# Construct the URL
-url = f"{base_url}/{agency},{dataset},{version}/{dimensions}"
-
-# Make the request
-response = requests.get(url, params=params).json() 
-```
-
-![Image of calling API and dataframe.head()](Transport1.jpeg)
-
-**Obeservations:** 26 <br>
-**Numerical Features:** 28 <br>
-**Categorical Features:** 0
+**Obeservations:** 1046 <br>
+**Numerical Features:** 1 <br>
+**Categorical Features:** 4
 
 ### Utility of this data regarding the user personas.
-- Knowing transport spending by country and year allows a EU Commission Official to <br> understand where funding is being applied regarding transport and to make policy for better union spending.
+- If a Casual European Traveler was to have access to this data
+they could use it to help casual travelers plan their own trip length  whether to match popular itineraries.
 
-<br> 
+- Knowing the trips by duration for a national offical would enable the user to view how long tourists are staying in the country and how a higher investment from GDP could increase the duration of their stay.
 
-- Knowing transport spending by country and year allows a European citizen to <br> get a general understanding of how well maintained the roads within a country are and which countries they may want to avoid traveling in.
-
-<br> 
-
-- Knowing transport spending by country and year also allows a Professional Trip Planner <br> to filter countries that are not ideal for travel when concerining car sustainability and saftey.
+- Trip duration data helps a European researcher analyze traveler behavior and compare how long visitors typically stay in countries over time offering insights into economic impact and travel trends that she can write about on the app.
 <br>
