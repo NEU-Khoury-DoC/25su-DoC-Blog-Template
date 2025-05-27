@@ -32,7 +32,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 # Personas/Archetypes: 
 ## 1. Student studying _Global Health_
-**Description:** Gale is a second year student at Northeastern University majoring global health. He is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system.
+**Description:** Gale is a second year student at Northeastern University majoring global health. He is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system. 
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
@@ -42,7 +42,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 ## 2. Individual moving abroad
-**Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities using clear comparisons and data-backed recommendations. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive.  
+**Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities using clear comparisons and data-backed recommendations. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive. 
 **User Stories:**
 - As a future resident, want to express my healthcare priorities so that I can receive a personalized list of countries whose healthcare systems best match our needs. 
 - As a future resident, I want to see a visual map showing how well different countries align with my selected health priorities, so I can easily compare options across the region. 
@@ -51,7 +51,7 @@ The application converts raw public healthcare data to insights to drive equitab
 
 
 ## 3. Policymaker analyzing current healthcare institutions
-**Description:** Nancy is a public health policymaker focused on improving her country’s healthcare system through evidence-based reform. She often looks beyond her borders to understand how other countries perform across key areas like prevention, emergency response, and health infrastructure. She’s especially interested in identifying countries with similar healthcare profiles to explore successful strategies that might translate well locally. Nancy also wants to monitor key health indicators over time and forecast future trends, helping her evaluate the impact of past policies and anticipate where new efforts are most needed. For her, global comparison isn’t just a reference point — it’s a tool for real-world decision-making.
+**Description:** Nancy is a public health policymaker focused on improving her country’s healthcare system through evidence-based reform. She often looks beyond her borders to understand how other countries perform across key areas like prevention, emergency response, and health infrastructure. She’s especially interested in identifying countries with similar healthcare profiles to explore successful strategies that might translate well locally. Nancy also wants to monitor key health indicators over time and forecast future trends, helping her evaluate the impact of past policies and anticipate where new efforts are most needed. For her, global comparison isn’t just a reference point — it’s a tool for real-world decision-making. 
 **User Stories:**
 - As a policymaker, I want to select a country and view its performance across core healthcare factors, so I can assess its strengths and weaknesses in key areas like prevention and health infrastructure.
 - As a policymaker, I want to see which countries are most similar to the one I’m analyzing, so I can explore proven strategies from comparable systems.
@@ -59,13 +59,16 @@ The application converts raw public healthcare data to insights to drive equitab
 - As a policymaker, I want to forecast the future trajectory of a selected healthcare factor, so I can anticipate challenges and plan more effectively.
 
 # Models: 
-**Personalized Scoring Recommendations** - Countries to travel to given the scoring preferences (weights)
+**1. k-Nearest Neighbors (k-NN): Personalized Country Matching**
+Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses k-NN to calculate similarity between the user’s input and each country’s normalized profile.
 
-**Clustering** - Group similar healthcare systems
+Used by: Future Resident, Policymaker
+Feature link: Slider-based input → ranked list of top-matching countries
+**2. Predictive Modeling: Indicator Forecasting**
+Used to project future values for specific healthcare indicators (e.g., life expectancy, hospital access scores) based on historical trends. This supports forward-looking insights for both students and policymakers.
 
-**Predictive Modeling** - Predict how a country’s score might change in the next 5 years based on trends and present day policy
-
-**Principal Component Analysis (PCA)** - reduce multi-dimensional healthcare data into 2D plots 
+Used by: Students, Policymaker
+Feature link: Time series chart + k-year prediction overlay for selected indicators
 
 
 # Data Sources: 
