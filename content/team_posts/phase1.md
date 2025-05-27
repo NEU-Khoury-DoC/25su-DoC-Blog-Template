@@ -14,17 +14,15 @@ showAuthorsBadges: false
 ---
 
 # Project Description:
-With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to provide succinct, intuitive insights from complex public health data, making it more accessible to a broader audience of users. 
+With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to evaluate complex public health data and provide users access to succinct, intuitive insights, making it more easily accessible and understandable to a broader audience of users.
 
-We are building an application that evaluates the healthcare systems of countries based on data derived, which fall into **four core factors**:
+We are building an application that aids users in evaluating various domains of countries' healthcare systems which fall relatively into **four core factors**:
 - access
 - quality of care
 - affordability
-- outcomes. 
+- outcomes.
 
-For each factor, key indicators are aggregated and a score is calculated, which may then be combined for a composite score for a given country. For example, given key indicators for _‘Outcome’_ being life expectancy and infant mortality, these may be normalized, weighted, and aggregated to compute one _‘Outcome’_ score. This factor may then contribute 25% of the total score, with the other core factors representative of the other 75%. The country scores are further visualized through heat maps and other comparisons.
-
-Additionally, users may explore customizing the weights used for scoring for each of the four factors, making it personalized to their own priorities and focused use of the app; if a user is only interested in affordability and quality, but still wants to consider access and outcomes, the weights may be 30%, 30%, 20%, 20%, respectively. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators. 
+We are utilizing the Global Health Security Index as it implements their own scoring system to determine a composite health assessment for each country. Further, we are utilizing the index to implement a machine learning model, providing users the opportunity to customize the weights used for scoring for each of the factors. Users are given this opportunity to focus on their own priorities and use of the app. This will be achieved through using the index as a training set, with user inputs and outputs representative of the test set. The country scores are further visualized through heat maps and other comparisons. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators.
 
 The application converts raw public healthcare data to insights to drive equitable improvements and informed populations regarding healthcare around the world.
 
