@@ -17,11 +17,7 @@ showAuthorsBadges : false
 Hi, we are Team CareCompass! **We make healthcare more accessible for you!** 
 Read on to find out about _our project._
 
-We want to make healthcare information availible so that the public can understand various countries healthcare:
-- Access/Coverage
-- Quality
-- Affordability/Financial Protection 
-- Outcomes 
+We want to make healthcare information available so that the public can evaluate  countries' healthcare systems relating to _Access/Coverage, Quality, Affordability/Financial Protection,_ and _Outcomes_ 
 
 
 
