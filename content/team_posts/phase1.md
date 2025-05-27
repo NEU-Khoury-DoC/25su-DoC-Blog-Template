@@ -18,7 +18,7 @@ Due to increasing global tensions, over 117.3 million people have been displaced
 
  # User Personas
 
- ## Asylum Seeker
+ ## Aslylum Seeker
  Mohammed is a 17 year old boy from Syria. He is a practicing muslim. His parents were recently killed due to bombings in his area and he is seeking asylum with his 5 year old sister and 10 year old brother. 
 ### USER STORIES
 1. As a refugee, I want to find accurate information about which countries are accepting the most asylum seekers, with the least amount of pending applications so that I can apply to a country where I have the best chance of getting accepted and getting my application processed quickly.
@@ -51,5 +51,4 @@ Mark is a German lawyer seeking pro bono opportunities. He wants to provide lega
 
  <https://ec.europa.eu/eurostat/databrowser/view/tps00098/default/table?lang=en&category=t_spr>
  
-
- ![Asylum Code Proof](/Asylum_code.png)
+ Our first data source is from Eurostat and we are collecting a variety of different features including, country of origin, country applied to, decision, age, sex, year, and the number of citizens. We are planning to use this information to create a linear perceptron ML model that creates a ranking of the countries that would most likely accept the user as an asylum given their demographics. Our second data source is from Eurostat and we are collecting the social spending (GDP) per country each year. We are planning to use this information to create a time series regression ML model that predicts how much of a country's GDP they will allocate to social spending.
