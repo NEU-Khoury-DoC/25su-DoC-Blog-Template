@@ -14,17 +14,15 @@ showAuthorsBadges: false
 ---
 
 # Project Description:
-With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to provide succinct, intuitive insights from complex public health data, making it more accessible to a broader audience of users. 
+With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to evaluate complex public health data and provide users access to succinct, intuitive insights, making it more easily accessible and understandable to a broader audience of users.
 
-We are building an application that evaluates the healthcare systems of countries based on data derived, which fall into **four core factors**:
+We are building an application that aids users in evaluating various domains of countries' healthcare systems which fall relatively into **four core factors**:
 - access
 - quality of care
 - affordability
-- outcomes. 
+- outcomes.
 
-For each factor, key indicators are aggregated and a score is calculated, which may then be combined for a composite score for a given country. For example, given key indicators for _‘Outcome’_ being life expectancy and infant mortality, these may be normalized, weighted, and aggregated to compute one _‘Outcome’_ score. This factor may then contribute 25% of the total score, with the other core factors representative of the other 75%. The country scores are further visualized through heat maps and other comparisons.
-
-Additionally, users may explore customizing the weights used for scoring for each of the four factors, making it personalized to their own priorities and focused use of the app; if a user is only interested in affordability and quality, but still wants to consider access and outcomes, the weights may be 30%, 30%, 20%, 20%, respectively. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators. 
+We are utilizing the Global Health Security Index as it implements their own scoring system to determine a composite health assessment for each country. Further, we are utilizing the index to implement a machine learning model, providing users the opportunity to customize the weights used for scoring for each of the factors. Users are given this opportunity to focus on their own priorities and use of the app. This will be achieved through using the index as a training set, with user inputs and outputs representative of the test set. The country scores are further visualized through heat maps and other comparisons. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators.
 
 The application converts raw public healthcare data to insights to drive equitable improvements and informed populations regarding healthcare around the world.
 
@@ -33,6 +31,8 @@ The application converts raw public healthcare data to insights to drive equitab
 # Personas/Archetypes: 
 ## 1. Student studying _Global Health_
 **Description:** Gale is a second year student at Northeastern University majoring global health. He is researching healthcare systems in various countries for his report for his Introduction to Global Health class. He wants to make comparisons between systems in order to properly report back to his class and inform them about the benefits and drawbacks of the healthcare systems between countries. Gale continues with the intention to come up with an ideal (or “the _best_”) healthcare system. 
+
+
 **User Stories:**
 - As a student, I want to compare healthcare quality across multiple countries, so that I can identify which systems produce the best outcomes.
 - As a student, I want to access key health indicators like coverage and affordability in one place, so that I can easily cite and present data for class projects.
@@ -43,6 +43,8 @@ The application converts raw public healthcare data to insights to drive equitab
 
 ## 2. Individual moving abroad
 **Description:** Archibald Bridgemont is planning a long-term move to Europe with his wife and their young daughter, but hasn't yet chosen which country. He’s looking for a place with a strong and trustworthy healthcare system, where health risks are well-managed, medical needs are reliably met, and public institutions are stable and responsive. Because he values safety, preparedness, and long-term access to care, Archibald wants to explore countries that align with his personal healthcare priorities using clear comparisons and data-backed recommendations. This traveler may have a family, so they also just want to know the general coverage and accessibility that they would be able to receive. 
+
+
 **User Stories:**
 - As a future resident, want to express my healthcare priorities so that I can receive a personalized list of countries whose healthcare systems best match our needs. 
 - As a future resident, I want to see a visual map showing how well different countries align with my selected health priorities, so I can easily compare options across the region. 
@@ -52,6 +54,8 @@ The application converts raw public healthcare data to insights to drive equitab
 
 ## 3. Policymaker analyzing current healthcare institutions
 **Description:** Nancy is a public health policymaker focused on improving her country’s healthcare system through evidence-based reform. She often looks beyond her borders to understand how other countries perform across key areas like prevention, emergency response, and health infrastructure. She’s especially interested in identifying countries with similar healthcare profiles to explore successful strategies that might translate well locally. Nancy also wants to monitor key health indicators over time and forecast future trends, helping her evaluate the impact of past policies and anticipate where new efforts are most needed. For her, global comparison isn’t just a reference point — it’s a tool for real-world decision-making. 
+
+
 **User Stories:**
 - As a policymaker, I want to select a country and view its performance across core healthcare factors, so I can assess its strengths and weaknesses in key areas like prevention and health infrastructure.
 - As a policymaker, I want to see which countries are most similar to the one I’m analyzing, so I can explore proven strategies from comparable systems.
@@ -87,7 +91,7 @@ Dataset Json:
 
 
 
-**Data Source 2**
+**Data Source 2:**
 Households impoverished after out-of-pocket healthcare payments
 
 The following dataset displays the percentage of households who are classified as impoverished after
