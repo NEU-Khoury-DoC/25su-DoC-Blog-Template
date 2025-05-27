@@ -48,7 +48,7 @@ persona, Mark.
 
 ## Application DDL 
 ["Click_Here"](https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql)
-https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql
+
 # Datasets
 
 ## Dataset: Social Spending Dataset EDA 
