@@ -73,7 +73,7 @@ Used by: Future Resident, Policymaker
 Feature link: Slider-based input → ranked list of top-matching countries
 
 **2. Predictive Modeling: Indicator Forecasting**
-Used to project future values for specific healthcare indicators (e.g., life expectancy, hospital access scores) based on historical trends. This supports forward-looking insights for both students and policymakers.
+Used to project future values for specific healthcare indicators (e.g., life expectancy, total health expenditures) based on historical trends. This supports forward-looking insights for both students and policymakers.
 
 Used by: Students, Policymaker
 Feature link: Time series chart + k-year prediction overlay for selected indicators
