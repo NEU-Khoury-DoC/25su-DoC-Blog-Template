@@ -8,4 +8,8 @@ tags: ["authors", "config", "docs"]
 authors:
   - "gabbymontalvo"
 showAuthorsBadges : false
+---
 
+# Gabbys Indiv Blog
+
+To be changed later
