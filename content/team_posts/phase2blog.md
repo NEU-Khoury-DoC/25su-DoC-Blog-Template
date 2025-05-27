@@ -22,13 +22,13 @@ We have visualized a couple of the datasets in different ways as they relate to 
 # ER Diagrams:
 Below are localized ER diagrams for each personna: the green diagram corresponding to the mover Archibald, red diagram corresponding to the student Gale, and the blue diagram corresponding to the policymaker Nancy.
 
-![image](CareCompass Mover ER.png)
-![image](CareCompass Student ER.png)
-![image](CareCompass Policymaker ER.png)
+![image](moverER.png)
+![image](studentER.png)
+![image](policymakerER.png)
 
 Further, the global ER model is seen here:
 
-![image](CareCompass Global ER.png)
+![image](globalER.png)
 
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
