@@ -43,6 +43,8 @@ The relational diagram was further derived as:
 ![image](relationalDiagram.png)
 
 Based on our global data model, a first pass of our SQL DDL can be seen below.
-["database"](/cc_db.sql)
+[View SQL File](cc_db.sql)
+
+Our current wireframes can be viewed here: [View the pdf](wireframe.pdf)
 
 
