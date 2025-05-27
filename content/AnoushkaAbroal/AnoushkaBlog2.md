@@ -22,7 +22,7 @@ Outside of the project, I have gained a better footing on linear algebra concept
 
 In other news, I have learned a lot more and experienced Belgium more since the time of my last post. I visited Brugges and Antwerp on my free days, and visited some historical museums that allowed me to learn a lot more about Belgium's past, culture, and relation to international affairs. I also enjoyed listening to speakers at the European Commission, and creating some delicious Belgian baked goods/treats. 
 
-![image](anoushBlog2.heic)
+#![image](anoushBlog2.heic)
 
 
 
