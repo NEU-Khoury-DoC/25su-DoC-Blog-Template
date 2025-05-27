@@ -185,11 +185,25 @@ CREATE TABLE user_score
 Our current wireframes can be viewed here: 
 
 ![image](wfHomepage.png)
+This wireframe shows the homepage of CareCompass. It introduces the different user archetypes, and the application as a whole.
+
 ![image](wfCountryComparator.png)
+The _Country Comparator_ page is utilized by the student archetype where they are given the opportunity to choose 2-3 countries to compare 6 features' scores against one another in an organized table. Further, the student may choose to track a specific feature over time, given by a dropdown menu and visualized in a line plot (with different countries in different colors).
+
 ![image](wfStrengthsWeakness.png)
+The _Strengths vs. Weaknesses_ page is also used by the student to look at one specific country and identify its strengths and weaknesses. The strengths and weaknesses are determined by features with the highest/lowest scores relative to all other countries in our datasets.
+
 ![image](wfSliders.png)
+The _Sliders_ page illustrates a personalized and customizable aspect to our application, particularly geared toward a moving resident. There are 6 factors that may be considered and the sliders allow users to prioritize some over others. The result of using the sliders is a bar chart that visualizes countries' scores based on the weights provided by the user (sorted from highest score to lowest), as well as a gradient map of the scores. An additional feature of this page is for individuals to choose what country they are coming from, and whether or not they would like that country score to factor into their results.
+
 ![image](wfCountryProfile.png)
+The _Country Profile_ is a dashboard that can be reached on its own or through links on other pages. This page is currently housed for residents to learn more about countries of interest to them. Additionally, users may see on the right side bar provided links to country profiles of similar score to that of the country of interest (country of which profile currently on).
+
 ![image](wfRegression.png)
+The _Regression_ page may be utilized by the policymaker archetype as they consider how a given country's score may change over time depending on the region, certain factors, and time. 
+
 ![image](wfTargetScores.png)
+The _Target Scores_ page illustrates a policymaker's ability to utilize CareCompass in a way to project their country's growth. Given the current 6 scores of a country, the user may input target scores and the projected time until those target scores are reached will be output in years (if applicable).
+
 
 
