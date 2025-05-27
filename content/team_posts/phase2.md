@@ -52,16 +52,17 @@ persona, Mark.
 # Wireframe Drafts
 
 ## Home Screen
-["homeScreen"](/homeScreen.pdf)
+["homeScreen"](https://github.com/DroidBait66/Team10/blob/main/assets/homeScreen.pdf)
+
 
 ## Refugee Persona
-["refugee_screens"](/refugeeScreens.pdf)
+["refugee_screens"](https://github.com/DroidBait66/Team10/blob/main/assets/refugeeScreens.pdf)
 
 ## Lawyer Persona
-["lawyer_screens"](/LawyerScreens.pdf)
+["lawyer_screens"](https://github.com/DroidBait66/Team10/blob/main/assets/LawyerScreens.pdf)
 
 ## Diplomat Persona
-["diplomat_screens"](/diplomatScreens.pdf)
+["diplomat_screens"](https://github.com/DroidBait66/Team10/blob/main/assets/diplomatScrens.pdf)
 
 
 # Datasets
