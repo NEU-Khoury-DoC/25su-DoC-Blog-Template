@@ -13,11 +13,7 @@ authors:
 showAuthorsBadges : false
 ---
 
-
-Hi, we are Team CareCompass! **We make healthcare more accessible for you!** 
-Read on to find out about _our project._
-
-We want to make healthcare information available so that the public can evaluate  countries' healthcare systems relating to _Access/Coverage, Quality, Affordability/Financial Protection,_ and _Outcomes_ 
+Hi, we’re Team **Care Compass**! We use `real health data` and `machine learning` to help users compare and understand global healthcare systems. Our platform lets you explore country profiles, visualize key trends, and get personalized recommendations based on your healthcare priorities.
 
 
 
