@@ -12,4 +12,8 @@ showAuthorsBadges : false
 
 # About Jessica Poblete
 
-I am Jessica Poblete, I am a 2nd year computer science major at **Northeastern University**.
+I am Jessica Poblete, I am a 2nd year computer science major at **Northeastern University**. I grew up in Chicago, Illinois but have traveled and moved all throughout my life.
+## Fun Faces
+- I've been to 40 countries
+- I have 3 citizenships
+- I have 2 dogs

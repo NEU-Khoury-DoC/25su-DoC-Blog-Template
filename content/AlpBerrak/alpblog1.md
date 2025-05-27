@@ -1,6 +1,6 @@
 ---
 title: "About Alp Berrak"
-date: 2024-05-21
+date: 2025-05-14
 draft: false
 description: "my first blog"
 slug: "aboutalp"   # if you use, needs to be different for every post
@@ -13,9 +13,9 @@ showAuthorsBadges : false
 # About Alp Berrak
 
 I am a rising 4th year **Cybersecurity** major at Northeastern university
-| living in | New Jersey | 
+| living in | Born in | 
 |---|---|
-|born in | Turkieye |
+|New Jersey | Turkieye |
 
 I have two pets back home:
 - a schnoodle named Cooper
