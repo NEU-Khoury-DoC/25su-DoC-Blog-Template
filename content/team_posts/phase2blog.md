@@ -23,6 +23,17 @@ This shift in data informed several important technical updates. Most notably, w
 
 Together, these updates helped us move from a loosely scoped concept to a more concrete, implementable system with clearly defined features tied directly to our personas.
 
+# Proof of Concept ML Model: 
+We began exploring a linear regression model that we will continue to shape in Phase III. For this example, we standardized the Antimicrobial feature, as well as the Health Index scores, in order to create a line of best fit regression plot, and a residual graph as well.
+We will most likely swap out the features based on what the user is asking (see wireframes), but we decided to explore these two features with our regression model for now. The results can be seen below: 
+
+Line of Best Fit:
+![image](LineOfBestFitProof.png)
+
+Residual Plot:
+![image](residualPlotProof.png)
+
+
 # Data Sources:
 At the end of Phase I, we had gathered data from two datasets, households impoverished by out of pocket payments, and general practitioners per 10,000 population. For Phase II, in addition to cleaning and visualizing these two datasets, we have also gathered, cleaned, and graphed out data from 9 new datasets, as updated in our [blog post for phase 1](https://arthur-t-huang.github.io/Care-Compass-Blog/team_posts/phase1post/#data-sources). 8 of these new datasets were pulled from the World Health Organization API, the other dataset web scraped from the Global Health Security Index, to give us that overall score we were looking for. For each of the World of Health datasets, the gatherer information was fitted into a dataframe which had distinct country and date columns, since every W.H.O dataset contained these two values. Additionally, the Global Health Index dataset contained 300+ columns of factors which were used to help calculate the overall score for a country (ex. Antimicrobial resistance, Access to potable water, etc). Some of these factors were then visualized in comparison to the the overall score of a country, and we plan on including factors with high correlation to overall score to the slider feature mentioned in the [blog post for phase 1](https://arthur-t-huang.github.io/Care-Compass-Blog/team_posts/phase1post/#data-sources).
 We have visualized a couple of the datasets in different ways as they relate to the wireframes that we plan to implement: 
