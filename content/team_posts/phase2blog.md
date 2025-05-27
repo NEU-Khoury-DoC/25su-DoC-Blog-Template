@@ -46,7 +46,7 @@ We have visualized a couple of the datasets in different ways as they relate to 
 
 
 
-# ER Diagrams:
+# ER Diagrams, Relational Diagram, SQL DDL:
 Below are localized ER diagrams for each personna: the green diagram corresponding to the mover Archibald, red diagram corresponding to the student Gale, and the blue diagram corresponding to the policymaker Nancy.
 
 ![image](moverER.png)
@@ -60,6 +60,7 @@ Further, the global ER model is seen here:
 The relational diagram was further derived as:
 ![image](relationalDiagram.png)
 
+## SQL DDL:
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
 <pre> 
@@ -168,5 +169,16 @@ CREATE TABLE user_score
 );
  </pre>
 
-Our current wireframes can be viewed here: [open the pdf](assets/wireframe.pdf)
+ # WireFrames:
+
+Our current wireframes can be viewed here: 
+
+![image](wfHomepage.png)
+![image](wfCountryComparator.png)
+![image](wfStrengthsWeakness.png)
+![image](wfSliders.png)
+![image](wfCountryProfile.png)
+![image](wfRegression.png)
+![image](wfTargetScores.png)
+
 
