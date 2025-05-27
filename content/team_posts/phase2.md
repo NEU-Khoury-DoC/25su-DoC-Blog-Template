@@ -43,3 +43,10 @@ persona, Mark.
 ## Application DDL 
 ["openport_db.sql"](/openport_db.sql)
 
+# Datasets
+## Asylum Data
+![EDA](/EDA.png)
+According to the data from this API the relation between age and decision differ greatly depending on the age group. Those who apply when they are less than 14 have a slightly higher chance of being rejected based on count, with rejection being favored by 51%. Meanwhile for the age group of 14 to 17 years old the count for rejected and for positive decisions are almost exactly equal, with positive decisions occuring slightly more frequent on average. As the age groups increase there seems to be a trend of a higher rejection count, for example for ages 18 to 34 there are about 59% more rejected applicants than accepted, this is similar for ages 35 to 64. And finally for ages 65 and older rejection is still favored but only by around 53%. All of this combined shows that applicants are more favored if they are children or elderly, compared to middle aged.
+
+![Histogram](/newplot.png)
+According to the histogram it seems as if France accepts the most asylums but also rejects the most. This would make sense because France has a far higher population compared to some of the other countries like Malta. Since France not only has a large current population it also is a larger country by area. It would make sense that the larger countries would be able to accept more applicants, rather than the small countries. It also appears that a lot of the countries have similar positive and rejection decisions, such as Bulgaria, Finland, and Latvia. Meanwhile Sweden has significantly more acceptances versus rejections making it a good country to apply to. And Italy has significantly more rejections versus acceptances making it a worse candidate country to apply to.
