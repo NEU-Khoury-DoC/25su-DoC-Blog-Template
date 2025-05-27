@@ -14,18 +14,21 @@ showAuthorsBadges: false
 ---
 
 # Project Description:
-With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to evaluate complex public health data and provide users access to succinct, intuitive insights, making it more easily accessible and understandable to a broader audience of users.
+With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare systems across countries can be a complex and overwhelming process. Our project aims to simplify this by evaluating complex public health data and providing users access to succinct, intuitive insights, making it more easily accessible and understandable to a broader audience of users.
 
-We are building an application that aids users in evaluating various domains of countries' healthcare systems which fall relatively into **four core factors**:
-- access
-- quality of care
-- affordability
-- outcomes.
+We are building an application that helps users explore and evaluate the healthcare systems of different countries based on **six core factors** from the Global Health Security Index:
+- Prevention
+- Detection and Reporting
+- Rapid Response
+- Health System
+- Compliance with International Norms
+- Risk Environment
 
-We are utilizing the Global Health Security Index as it implements their own scoring system to determine a composite health assessment for each country. Further, we are utilizing the index to implement a machine learning model, providing users the opportunity to customize the weights used for scoring for each of the factors. Users are given this opportunity to focus on their own priorities and use of the app. This will be achieved through using the index as a training set, with user inputs and outputs representative of the test set. The country scores are further visualized through heat maps and other comparisons. Another feature of the app includes a side-by-side comparison of nations’ scores and key indicators.
+We are utilizing the Global Health Security Index, which provides a standardized scoring system across six core healthcare factors to generate a composite assessment for each country. Rather than allowing users to customize weights directly, we leverage the index to implement a machine learning model using k-nearest neighbors (k-NN). This enables users to express their healthcare priorities through sliders, which are transformed into a preference vector and compared against normalized country data to identify the most similar healthcare systems.
+
+The resulting country matches are visualized through ranked comparisons, interactive heat maps, and a side-by-side comparison tool for exploring differences in key health indicators. In addition, users can track how selected indicators have changed over time and view predictive forecasts for future performance, offering a forward-looking perspective based on historical trends.
 
 The application converts raw public healthcare data to insights to drive equitable improvements and informed populations regarding healthcare around the world.
-
 
 
 # Personas/Archetypes: 
