@@ -14,7 +14,7 @@ showAuthorsBadges: false
 ---
 
 # Project Description:
-With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to derive succinct, intuitive insights from complex public health data, making it more accessible to a broader audience of users. 
+With an expansive network of public health knowledge at our fingertips, evaluating and comparing healthcare coverage internationally may prove to be an extensive and strenuous process. Our project aims to provide succinct, intuitive insights from complex public health data, making it more accessible to a broader audience of users. 
 
 We are building an application that evaluates the healthcare systems of countries based on data derived, which fall into **four core factors**:
 - access
