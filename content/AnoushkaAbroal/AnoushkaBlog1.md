@@ -16,5 +16,6 @@ In terms of the dialogue, I have really enjoyed my time here in Belgium so far. 
 
 Our excursions have also really opened my worldview. Not only am I gaining a better understanding of how the EU works in terms of flow of legislation, but I am also learning about how the different presenters showcase their organization and either hide or present their biases to Americans like us. 
 
+![image](anoushBlog1.HEIC)
 
 
