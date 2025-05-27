@@ -30,6 +30,9 @@ Further, the global ER model is seen here:
 
 ![image](globalER.png)
 
+The relational diagram was further derived as:
+![image](relationalDiagram.png)
+
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
 
