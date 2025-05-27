@@ -42,8 +42,9 @@ Further, the global ER model is seen here:
 The relational diagram was further derived as:
 ![image](relationalDiagram.png)
 
-Based on our global data model, a first pass of our SQL DDL can be seen 
-<pre> ```sql DROP DATABASE IF EXISTS carecompass_database;
+Based on our global data model, a first pass of our SQL DDL can be seen below.
+
+<pre> DROP DATABASE IF EXISTS carecompass_database;
 CREATE DATABASE carecompass_database;
 USE carecompass_database;
 
@@ -146,8 +147,7 @@ CREATE TABLE user_score
     FOREIGN KEY (userID) REFERENCES users(id),
     FOREIGN KEY (overallScore) REFERENCES overall_score(overallScore)
 );
- ``` </pre>
+ </pre>
 
-Our current wireframes can be viewed here: [View the pdf](./wireframe.pdf)
-
+Our current wireframes can be viewed here: [Download the pdf](assets/wireframe.pdf)
 
