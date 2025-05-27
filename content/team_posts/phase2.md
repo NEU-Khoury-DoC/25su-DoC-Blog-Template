@@ -48,6 +48,7 @@ persona, Mark.
 
 ## Application DDL 
 ["openport_db.sql"](https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql)
+["Click_Here"] (https://raw.githubusercontent.com/eliannemejia/OpenPort/refs/heads/main/database-files/openport_db.sql)
 
 # Datasets
 
