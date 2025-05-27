@@ -73,6 +73,27 @@ Use the cusor to zoom in/out or use the plus and minus sign (in order to see all
 ![mySQL DDL inital code](mySQLDDL.png)
 Here is the link the to code of the Inital MySQL DDL model <br> [Link to mySQL DDL Code ](https://drive.google.com/file/d/1dUJhlQq0w4GWwUo47a5TZEtMl-E3PAmh/view?usp=sharing)
 
+
+## Passenger Cars Present in Europe Over Time - Data Visualizations
+![passengercarsscatter](passenger_cars.png)
+Explanation of Choices:
+- The Passenger Cars data file provides extremely in-depth features, like type of motor engery and size of engine.
+- By taking advantage of the ability to include all motor energies and engine sizes into a category called "Total", this allows for a more holistic analysis of these features and how they interact with time.
+- The most prominent and obvious factor to observe in this care would be how the number of passenger cars increases with time.
+- By choosing to implement an interactive scatter plot where number of cars varies by size, it is easy to see how the number of cars has steadily increased across time.
+- Observing this trend is not only important for supporting our inferences, but important with regards to coinciding with our user personas' goals.
+- For example, our Researcher would greatly care about the interaction with these two features because it would support their inference that motor car usage has overall increased, which has further implications on road quality and fuel prices. This would lead our Research to interact with other aspects of our application, like turning towards data models about road quality, road density, and fuel prices.
+- Our National Official would be interested in this kind of analysis in order to capitalize on this increased volume of cars and prospective tourism over time, supporting their goal of using this application to better the economy.
+
+
+![passengercarsbar](passenger_cars_bar.png)
+Explanation of Choices:
+- Our second visualization about the passenger cars dataset also demonstrates changes in the two features that would be most prominent- Years and Number of cars.
+- However, as a difference from the first one, the usage of bar charts dramaticizes the deviations from the baseline thanks to observing height.
+- Again, with consideration for our user personas, our Road Tripper/Traveler might benefit more from this kind of vizualization.
+- While the scatterplot might require a more detailed eye to pick up on what the sizes of each dot mean, what causes it to vary, and a stronger critical thinking process about how the two features interact, a simple bar chart can be easier to the untrained eye.
+- A more casual persona such as our Road Tripper would be more inclined to observe a visualization like this where the differences and interaction is easier to observe.
+
 ## Reasoning For Data Visualization
 
 ### Road Density Data
