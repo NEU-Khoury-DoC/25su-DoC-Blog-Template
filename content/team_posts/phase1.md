@@ -59,13 +59,16 @@ The application converts raw public healthcare data to insights to drive equitab
 - As a policymaker, I want to forecast the future trajectory of a selected healthcare factor, so I can anticipate challenges and plan more effectively.
 
 # Models: 
-**Personalized Scoring Recommendations** - Countries to travel to given the scoring preferences (weights)
+**1. k-Nearest Neighbors (k-NN): Personalized Country Matching**
+Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses k-NN to calculate similarity between the user’s input and each country’s normalized profile.
 
-**Clustering** - Group similar healthcare systems
+Used by: Future Resident, Policymaker
+Feature link: Slider-based input → ranked list of top-matching countries
+**2. Predictive Modeling: Indicator Forecasting**
+Used to project future values for specific healthcare indicators (e.g., life expectancy, hospital access scores) based on historical trends. This supports forward-looking insights for both students and policymakers.
 
-**Predictive Modeling** - Predict how a country’s score might change in the next 5 years based on trends and present day policy
-
-**Principal Component Analysis (PCA)** - reduce multi-dimensional healthcare data into 2D plots 
+Used by: Students, Policymaker
+Feature link: Time series chart + k-year prediction overlay for selected indicators
 
 
 # Data Sources: 
