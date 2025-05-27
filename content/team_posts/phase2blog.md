@@ -168,5 +168,5 @@ CREATE TABLE user_score
 );
  </pre>
 
-Our current wireframes can be viewed here: [Download the pdf](./assets/wireframe.pdf)
+Our current wireframes can be viewed here: [open the pdf](assets/wireframe.pdf)
 
