@@ -43,6 +43,14 @@ persona, Mark.
 ## Application DDL 
 ["openport_db.sql"](/openport_db.sql)
 
+## Dataset 1: Asylum Seeker Dataset EDA 
+
+## Dataset 2: Social Spending Dataset EDA 
+* The Social Spending Dataset contains the percentage of their GDP that certain countries contribute to their Social Programs. The dataset contains data from 2011-2022. Right off the bat, we noticed that there were upwards spikes during the pandemic in 2020 which seemed to have mostly leveled off in the following years. Prior to the pandemic, we noticed that it mostly differed from country to country with peaks in certain years and decreases in others. The summary statisitcs displayed that the mean spending was 23.47% with a standard deviation of 5.79. The highest spending country was France and the lowest was Slovakia. We noticed something particulary interesting in the graph that contained Norway due to it's steady fall in spending post the pandemic. 
+
+![Social Spending Line Plot 1](/social_spending_1.png)
+![Social Spending Line Plot 2](/social_spending_2.png)
+
 # Datasets
 ## Asylum Data
 ![EDA](/EDA.png)
