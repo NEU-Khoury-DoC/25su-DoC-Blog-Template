@@ -62,7 +62,8 @@ The relational diagram was further derived as:
 
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
-<pre> DROP DATABASE IF EXISTS carecompass_database;
+<pre> 
+DROP DATABASE IF EXISTS carecompass_database;
 CREATE DATABASE carecompass_database;
 USE carecompass_database;
 
@@ -167,5 +168,5 @@ CREATE TABLE user_score
 );
  </pre>
 
-Our current wireframes can be viewed here: [Download the pdf](assets/wireframe.pdf)
+Our current wireframes can be viewed here: [Download the pdf](./assets/wireframe.pdf)
 
