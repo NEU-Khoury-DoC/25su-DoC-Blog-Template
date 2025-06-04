@@ -15,7 +15,7 @@ For Phase III, I mainly worked on finishing the 2 ML Models in a Jupyter noteboo
 In terms of Belgium, I have done more exploring in Leuven in general. I have tried some more food locations, and have found that I really enjoy eating the pasta at Boccone. I really enjoyed our trip to Luxembourg as well, where I had a wonderful time watching the night marathon, walking through the valley, using the free transportation, and eating very good food. I also learned a lot recently from our visits to Eurostat and the Wilfried Martin Center for European Studies, where I now understand data regulations in the European Union a bit better, and can identify the biases of someone affiliated with a European political party. 
 
 
-![image](luxembourg.jpg)
+![image](Luxembourg.jpg)
 
 
 
