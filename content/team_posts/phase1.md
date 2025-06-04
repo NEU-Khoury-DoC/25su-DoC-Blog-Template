@@ -67,11 +67,11 @@ The application converts raw public healthcare data to insights to drive equitab
 - As a policymaker, I want to forecast the future trajectory of a selected healthcare factor, so I can anticipate challenges and plan more effectively.
 
 # Models: 
-**1. k-Nearest Neighbors (k-NN): Personalized Country Matching**
-Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses k-NN to calculate similarity between the user’s input and each country’s normalized profile. Users can also enable a mode that blends similarity to a selected origin country with their preferences. This allows for personalized recommendations that balance familiar healthcare systems with their desired system attributes.
+**1. Cosine Similarity: Personalized Country Matching**
+Used to match users with countries whose healthcare systems align most closely with their personal priorities. Users express their preferences across six key health system factors (e.g., prevention, response, infrastructure), and the system uses cosine similarity to calculate similarity between the user’s input and each country’s normalized profile. Users can also enable a mode that blends similarity to a selected origin country with their preferences. This allows for personalized recommendations that balance familiar healthcare systems with their desired system attributes.
 
 Used by: Future Resident, Policymaker
-Feature link: Slider-based input → ranked list of top-matching countries
+Feature link: Ranking and possible Slider-based input → ranked list of top-matching countries
 
 **2. Predictive Modeling: Indicator Forecasting**
 Used to project future values for specific healthcare indicators (e.g., life expectancy, total health expenditures) based on historical trends. This supports forward-looking insights for both students and policymakers.
