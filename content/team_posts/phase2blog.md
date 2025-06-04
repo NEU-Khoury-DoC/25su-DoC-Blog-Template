@@ -19,7 +19,7 @@ These refined personas helped us anchor our technical decisions to real, use-dri
 
 We also went back and articulated our data sources better, and found a new, more comprehensive data set as well, that changed some of the technicalities we wanted in our inital plan. Due to this, we also changed those concepts to match our new vision in our first blog post. 
 
-This shift in data informed several important technical updates. Most notably, we moved away from our original idea of allowing users to assign custom weights to healthcare factors and instead implemented a k-nearest neighbors (k-NN) model to generate personalized country recommendations based on user priorities. We also introduced a time series forecasting model that enables users to view historical trends and predict future values for key healthcare indicators.
+This shift in data informed several important technical updates. Most notably, we moved away from our original idea of allowing users to assign custom weights to healthcare factors and instead implemented a cosine similarity model to generate personalized country recommendations based on user priorities. We also introduced a time series forecasting model that enables users to view historical trends and predict future values for key healthcare indicators.
 
 Together, these updates helped us move from a loosely scoped concept to a more concrete, implementable system with clearly defined features tied directly to our personas.
 
@@ -47,7 +47,7 @@ We have visualized a couple of the datasets in different ways as they relate to 
 
 ## Line Graphs:
 ![image](Expenditure_Line_Graph.png)
-![image](impoverished_linegraph.png)
+Explanation: 
 
 ## Scatter Plots:
 ![image](Practitioners_Expenditure_Scatterplot.png)
