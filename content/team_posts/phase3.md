@@ -30,7 +30,6 @@ The main focus of this phase of the project was implement the functionality via 
 Dicuss the features used in the ML and a reasoning as to why those features were selected. Also discuss any major/surprising issues found during ML model exploration
 
 ## Streamlit App Functionality
-![This is the test video](Preview-Vid.mov)
 
 1. POST Request for Researcher
 When the user is signed in as the researcher and is on the create posts page, they have the ability to create a post with a title and body text. When the user presses submit, a streamlit form will send the data as JSON through the POST request that is embeded in the submit button. This POST request will add the text and the post content to the mySQL database and will store it for the user to view on the view posts page
