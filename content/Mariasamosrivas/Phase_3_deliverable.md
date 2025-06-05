@@ -22,7 +22,7 @@ After a fun weekend exploring, it was right back to business with a final test o
 ![Luxembourg Lake](Maria_beach.jpeg)
 
 ## Picture of Luxembourg!
-![Luxembourg](Maria_lux.JPG)
+![Luxembourg](Maria_lux.jpeg)
 
 
 # Project Contributions 
