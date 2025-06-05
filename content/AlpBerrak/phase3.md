@@ -1,6 +1,6 @@
 ---
 title: "Phase 3 Deliverable"
-date: 2025-06-5
+date: 2025-06-05
 draft: false
 description: "Phase 3 Individual Deliverable"
 slug: "phase3alp"   # if you use, needs to be different for every post
