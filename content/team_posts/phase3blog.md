@@ -40,7 +40,7 @@ General practitioners per 10,000
 Life expectancy in years
 Total health expenditure 
 Number of impoverished households after out of pocket healthcare payments
-We completed designing our predictive model for the total health expenditure dataset. The training and prediction model results are now visible on the frontend. 
+For phase 3 of the project, we improved upon this regression model by using train_test_split to split our datasets into training and testing sets which were then used to calculate the line of best fit as well as the mean squared error and coefficient of determination. This regression model was then transfered from the jupyter notebook to ml python script in the ml folder, and was connected to the the feature_over_time front end page via routes. This model is now accesible on the front page and can be fit to any of the 6 datasets for any country inputted by the user.
 
 Further, we began working on our second machine learning model, the personalized country matching for future residents. The purpose of this model was to match users’ healthcare priorities with the countries that align most closely along key health system factors. This cosine similarity model is based off of the healthcare scores and subcategories from the GHS index. This model is complete, we simply need to account for the weights with simple math operations for multiplying each individual subcategory. The model is able to use input data to query, so we simply need to display the data in a more user-friendly format. 
 
