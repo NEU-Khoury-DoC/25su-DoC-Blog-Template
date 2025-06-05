@@ -3,7 +3,7 @@ title: "Project - Phase III"
 date: 2025-06-05
 draft: false
 description: "Our Idea"
-slug: "phase2post"
+slug: "phase3post"
 tags: ["project", "Setup"]
 authors:
     - "alpberrak"
