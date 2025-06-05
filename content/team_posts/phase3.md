@@ -18,7 +18,11 @@ As a result of feedback we recieved during our mock presentation, we have decide
 We stored data from the API along with the weight vectors for our logsitic regression ML model into two new tables, AverageAcceptanceRates and Weights. In addition to this, we populated our EducationLevel and Education tables with some mock data for all of the countries in our Country table. As of now, each country in our database associated values for each education level: primary, secondary, and tertiary. We also changed some of the attribute names for our other tables so that they make more sense according to the values they represent. For example, LegalAidApplication previously had a UserID attribute which was a foreign key referencing an ApplicantID for an entry in the AsylumSeeker table. We changed this to also be called ApplicationID so it's easier to understand what this value represents. 
 
 # Routes 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6aAyMz747kqhiRaR1dB4uw8S8n5M3bPqAU4DttqdiKApRwsWaEuF8rghtzfgw84GzTnQ64HPGJPcf/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT6aAyMz747kqhiRaR1dB4uw8S8n5M3bPqAU4DttqdiKApRwsWaEuF8rghtzfgw84GzTnQ64HPGJPcf/pubhtml?widget=true&amp;headers=false"
+  width="1000" 
+  height="600">
+</iframe>
 
 # Web App Pages
 ## Refugee Persona
