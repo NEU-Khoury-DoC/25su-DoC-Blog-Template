@@ -1,5 +1,5 @@
 ---
-title: "Phase 2 - Individual Deliverable"
+title: "Phase 3 - Individual Deliverable"
 date: 2025-06-05
 draft: false
 description: "Interesting things that I have learned on the third week of the dialogue."
