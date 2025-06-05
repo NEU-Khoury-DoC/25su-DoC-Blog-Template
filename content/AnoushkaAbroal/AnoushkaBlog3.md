@@ -1,6 +1,6 @@
 ---
 title: "Anoushka Blog 3"
-date: 2025-06-4
+date: 2025-06-04
 draft: false
 description: "A Description of the Phase 3 deliverable"
 slug: "anoushkablog3"   # if you use, needs to be different for every post
