@@ -1,5 +1,5 @@
 ---
-title: "Project - Phase I"
+title: "Welcome To Team 10!"
 date: 2025-05-11
 draft: false
 description: "Our Idea"
@@ -12,7 +12,5 @@ authors:
   - "mahika_modi"
 showAuthorsBadges : true
 ---
-
-# Welcome to Team 10!
 
 Welcome to our Team's Blog!
