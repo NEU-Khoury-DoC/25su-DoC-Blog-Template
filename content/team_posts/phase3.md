@@ -23,7 +23,7 @@ All these changes can be viewed on the phase two deliverable
 
  <br>
 
-# Phase II Deliverable
+# Phase III Deliverable
 The main focus of this phase of the project was implement the functionality via creating the API requests and creating the ML models. 
 
 ## Features Used in ML Models
