@@ -45,11 +45,33 @@ For phase 3 of the project, we improved upon this regression model by using trai
 Further, we began working on our second machine learning model, the personalized country matching for future residents. The purpose of this model was to match users’ healthcare priorities with the countries that align most closely along key health system factors. This cosine similarity model is based off of the healthcare scores and subcategories from the GHS index. This model is complete, we simply need to account for the weights with simple math operations for multiplying each individual subcategory. The model is able to use input data to query, so we simply need to display the data in a more user-friendly format. 
 
 # REST API
-In regards to developing our REST API, we created various routes so as to connect our web app to our models and database. Some of these include GET, PUT, POST, and DELETE routes for countries, as well as routes especially for our machine learning models. 
+In regards to developing our REST API, we created various routes to connect our web app to both our database and machine learning models. These include GET, PUT, POST, and DELETE routes for managing countries, as well as specialized routes for recommendations, comparisons, and machine learning. 
 
+On the backend, we implemented a set of REST API routes to support our app's core functionality. Within the countries blueprint, we developed endpoints for listing countries (with optional score filters), retrieving detailed country profiles, fetching associated healthcare factors, and enabling admin users to update or delete country records, providing full CRUD support.
+
+In the comparison blueprint, we added the ```/compare``` route, which allows users to view factor scores side-by-side across 2–3 selected countries. We also built ```/compare/timeseries```, which lets users track how a specific healthcare indicator has changed over time across those countries, a valuable tool for students and policymakers analyzing historical performance.
+
+In the recommendations blueprint, we created the ```/recommendations/factors``` route to return the six core Global Health Security Index categories, each with a clear description. This supports users in understanding what each slider represents in our personalized matching tool.
+
+Lastly, in the ml blueprint, we connected our backend to the regression and cosine similarity models by wiring up routes for predictive forecasting, model parameter storage, and similarity-based lookups, laying the foundation for data-driven insights throughout the app.
 
 Below is a matrix of our thus far created REST APIs
-... insert image ...
+| **Method** | **Endpoint**                       | **Purpose**                                         |
+| ---------- | ---------------------------------- | --------------------------------------------------- |
+| `GET`      | `/countries`                       | List all countries (with optional score filter)     |
+| `GET`      | `/countries/<id>/profile`          | Return full profile with metadata and factor scores |
+| `GET`      | `/countries/<id>/factors`          | Return raw factor scores for a specific country     |
+| `PUT`      | `/countries/<id>`                  | Update country metadata (admin-only)                |
+| `DELETE`   | `/countries/<id>`                  | Delete a country record (admin-only)                |
+| `GET`      | `/compare`                         | Compare 2–3 countries across all factors            |
+| `GET`      | `/compare/timeseries`              | View a feature’s change over time across countries  |
+| `GET`      | `/recommendations/factors`         | Get the six healthcare factors + descriptions       |
+| `POST`     | `/recommendations/recommendations` | Generate personalized country matches via k-NN      |
+| `GET`      | `/ml/predict/<feature>/<country>`  | Return predicted trend line using regression        |
+| `POST`     | `/ml/store-weights`                | Store ML model weights in the database              |
+| `GET`      | `/ml/get_cosine_similar/<country>` | Get countries most similar to a selected one        |
+| `GET`      | `/ml/get_regression/<input>`       | Predict a specific country's metric from input      |
+
 
 Finally, we built out an initial structure for most of our front end pages, as well as personalized  our web page colors and font. 
 
