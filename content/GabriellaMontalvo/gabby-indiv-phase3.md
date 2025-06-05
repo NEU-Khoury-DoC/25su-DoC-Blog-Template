@@ -1,6 +1,6 @@
 ---
 title: "Phase 3 Deliverable"
-date: 2025-06-5
+date: 2025-05-05
 draft: false
 description: "Phase 3 Individual Deliverable - Gabriella Montalvo"
 slug: "phase3deliverable"
