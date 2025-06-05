@@ -29,9 +29,12 @@ This screen uses the route that calls the logical regression model. Here, refuge
 This screen shows where refugees can apply for legal aid. Their application gets addded to our database which lawyers will be able to see on their dashboard (this will be implemented in the future)
 
 ## EU Commissioner Persona 
-![ProjectSubmission](/aid_project_submission_screen.png)
+![ProjectSubmission](/aid_top.png)
+![ProjectSubmission2](/aid_bot.png)
 This screen shows where EU commissioners can submit suggestions for new humanitarian aid projects. 
 
+![LowAcceptanceRateViaPop](/lowaccptrate.png)
+This screen shows EU commissioners which countries are accepting the most and the least refugees proportional to their population.
 
 # Machine Learning Models 
 
