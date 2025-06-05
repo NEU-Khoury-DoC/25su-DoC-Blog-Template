@@ -10,7 +10,7 @@ authors:
 showAuthorsBadges: false
 ---
 
-I took the lead on writing the routes and front implementation associated with the refugee persona. 
+I took the lead on writing the routes and front implementation associated with the refugee persona.   
 
 ### API Routes
 
