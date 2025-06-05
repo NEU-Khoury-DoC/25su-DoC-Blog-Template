@@ -76,37 +76,62 @@ The relational diagram was further derived as:
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
 <pre> 
-DROP DATABASE IF EXISTS carecompass_database;
-CREATE DATABASE carecompass_database;
-USE carecompass_database;
+DROP DATABASE IF EXISTS cc_database;
+CREATE DATABASE cc_database;
+USE cc_database;
 
 -- create country table
-DROP TABLE IF EXISTS country;
-CREATE TABLE country
+DROP TABLE IF EXISTS Countries;
+CREATE TABLE Countries
 (
-    id   INT PRIMARY KEY,
-    name        VARCHAR(50),
-    region      VARCHAR(50),
+    code    VARCHAR(50) PRIMARY KEY
+    region  VARCHAR(50),
+    name    VARCHAR(50),
+);
+
+
+DROP TABLE IF EXISTS CountryInfo;
+CREATE TABLE CountryInfo
+(
+    countryCode VARCHAR(50),
     strengths   VARCHAR(50),
     weaknesses  VARCHAR(50),
     score       FLOAT,
     info        VARCHAR(50),
-    time        DATETIME
-);
+    FOREIGN KEY (countryCode) REFERENCES Countries(code),
+    FOREIGN KEY (score) REFERENCES OverallScore(overall_score)
+)
+
+
+DROP TABLE IF EXISTS UserRoles;
+CREATE TABLE UserROles;
+(
+    roleID INT PRIMARY KEY,
+    roleName VARCHAR(50),
+)
 
 -- create users table
-DROP TABLE IF EXISTS users;
-CREATE TABLE users
+DROP TABLE IF EXISTS Users;
+CREATE TABLE Users
 (
     id               INT PRIMARY KEY,
     name             VARCHAR(50),
-    userType         VARCHAR(50),
-    qualityWeight    FLOAT,
-    accessibilityWeight FLOAT,
-    affordabilityWeight FLOAT,
-    outcomeWeight       FLOAT,
-    countryID       INT,
-    FOREIGN KEY (countryID) REFERENCES country (id)
+    roleID      INT,
+    country VARCHAR(50),
+    FOREIGN KEY (country) REFERENCES Countries (code).
+    FOREIGN KEY (roleID) REFERENCES UserRoles(roleID)
+);
+
+
+-- create factors table
+DROP TABLE IF EXISTS Factors;
+CREATE TABLE Factors
+(
+    factorID    INT PRIMARY KEY,
+    name        VARCHAR(50),
+    score       FLOAT,
+    
+    FOREIGN KEY (score) REFERENCES OverallScore(overall_score),
 );
 
 -- create score projection table
@@ -115,34 +140,8 @@ CREATE TABLE score_project
 (
     time    DATETIME,
     targetScore     FLOAT primary key
-);
-
-
--- create overall score table
-DROP TABLE IF EXISTS overall_score;
-CREATE TABLE overall_score
-(
-    overallScore FLOAT PRIMARY KEY,
-    qualityScore FLOAT,
-    accessibilityScore FLOAT,
-    affordabilityScore FLOAT,
-    outcomeScore FLOAT
-);
-
--- create factors table
-DROP TABLE IF EXISTS factors;
-CREATE TABLE factors
-(
-    factorID    INT PRIMARY KEY,
-    name        VARCHAR(50),
-    score       FLOAT,
-    weight      FLOAT,
-    countryID   INT,
-    overallScore   FLOAT,
-    targetScore     FLOAT,
-    FOREIGN KEY (countryID) REFERENCES country(id),
-    FOREIGN KEY (overallScore) REFERENCES overall_score(overallScore),
-    FOREIGN KEY (targetScore) REFERENCES score_project(targetScore)
+    factorID        INT,
+    FOREIGN KEY (factorID) REFERENCES Factors(factorID)
 );
 
 
@@ -150,35 +149,73 @@ CREATE TABLE factors
 DROP TABLE IF EXISTS comparator;
 CREATE TABLE comparator
 (
-    country1ID  INT,
-    country2ID  INT,
-    country3ID INT,
-    FOREIGN KEY (country1ID) REFERENCES country(id),
-    FOREIGN KEY (country2ID) REFERENCES country(id),
-    FOREIGN KEY (country3ID) REFERENCES country(id)
+    id INT PRIMARY KEY,
+    country1  VARCHAR(50),
+    country2  VARCHAR(50),
+    country3 VARCHAR(50),
+    FOREIGN KEY (country1) REFERENCES Countries(code),
+    FOREIGN KEY (country2) REFERENCES Countries(code),
+    FOREIGN KEY (country3) REFERENCES Countries(code)
 );
 
--- create country_compare table
-DROP TABLE IF EXISTS country_compare;
-CREATE TABLE country_compare
+
+
+
+DROP TABLE IF EXISTS regression_weights;
+CREATE TABLE regression_weights
 (
-    countryID   INT,
-    Country1_ID   INT,
-    Country2_ID    INT,
-    Country3_ID   INT,
-    FOREIGN KEY (countryID) REFERENCES country(id)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    country INT,
+    slope FLOAT,
+    intercept FLOAT,
+    mse FLOAT,
+    r2 FLOAT,
+    factorID INT,
+    userID INT,
 
-);
+    FOREIGN KEY (userID) REFERENCES Users(id),
+    FOREIGN KEY (country) REFERENCES Countries(code),
+    FOREIGN KEY (feature) REFERENCES Factors(factorID)
+)
 
--- create user_score table
-DROP TABLE IF EXISTS user_score;
-CREATE TABLE user_score
+DROP TABLE IF EXISTS cosine_weights;
+CREATE TABLE cosine_weights
 (
-    userID   INT,
-    overallScore    FLOAT,
-    FOREIGN KEY (userID) REFERENCES users(id),
-    FOREIGN KEY (overallScore) REFERENCES overall_score(overallScore)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    preventionWeight FLOAT,
+    healthSysWeight FLOAT,
+    rapidRespWeight FLOAT,
+    intlNormsWeight FLOAT,
+    riskEnvWeight FLOAT,
+    detectReportWeight FLOAT,
+    country INT,
+    userID INT,
+
+    FOREIGN KEY (userID) REFERENCES Users(id),
+    FOREIGN KEY (country) REFERENCES Countries(code)
+)
+
+DROP TABLE IF EXISTS regression_model_params;
+CREATE TABLE regression_model_params
+(
+    year INT,
+    expenditure FLOAT,
+    country VARCHAR(50),
+    FOREIGN KEY (country) REFERENCES country(name)
+)
+
+DROP TABLE IF EXISTS train_test;
+CREATE TABLE train_test
+(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    train_x INT,
+    test_x INT,
+    train_y INT,
+    test_y INT,
+    country INT,
+    FOREIGN KEY (country) REFERENCES Countries(code)
 );
+
  </pre>
 
  # WireFrames:
