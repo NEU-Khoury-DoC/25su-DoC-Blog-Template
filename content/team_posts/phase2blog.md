@@ -48,7 +48,7 @@ This dataframe represents the healthcare index scores for various countries in 2
 
 ## Line Graphs:
 ![image](Expenditure_Line_Graph.png)
-This graph represents 
+This graph represents the health expenditure (in GDP per capita) over time for all of the given countries, as seen in the legend for the country codes. Based on this graph we can tell that there is a general upward trend over time for all of the countries, which means that health expenditure as increased at a relatively constant rate over time since the 1920s. This will be interesting for the user to predict just how much the expenditure will increase in a future year. 
 
 ## Scatter Plots:
 ![image](Practitioners_Expenditure_Scatterplot.png)
