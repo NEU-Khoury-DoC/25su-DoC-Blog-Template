@@ -226,7 +226,7 @@ Our current wireframes can be viewed here:
 ![image](wfHomepage.png)
 This wireframe shows the homepage of CareCompass. It introduces the different user archetypes, and the application as a whole.
 
-![image](wfCountryComparator.png)
+![image](wfCountryComparator.jpg)
 The _Country Comparator_ page is utilized by the student archetype where they are given the opportunity to choose 2-3 countries to compare 6 features' scores against one another in an organized table. Further, the student may choose to track a specific feature over time, given by a dropdown menu and visualized in a line plot (with different countries in different colors).
 
 ![image](wfStrengthsWeakness.png)
