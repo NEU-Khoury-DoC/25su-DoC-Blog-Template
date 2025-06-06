@@ -37,17 +37,18 @@ Residual Plot:
 # Data Sources:
 At the end of Phase I, we had gathered data from two datasets, households impoverished by out of pocket payments, and general practitioners per 10,000 population. For Phase II, in addition to cleaning and visualizing these two datasets, we have also gathered, cleaned, and graphed out data from 9 new datasets, as updated in our [blog post for phase 1](https://arthur-t-huang.github.io/Care-Compass-Blog/team_posts/phase1post/#data-sources). 8 of these new datasets were pulled from the World Health Organization API, the other dataset web scraped from the Global Health Security Index, to give us that overall score we were looking for. For each of the World of Health datasets, the gatherer information was fitted into a dataframe which had distinct country and date columns, since every W.H.O dataset contained these two values. Additionally, the Global Health Index dataset contained 300+ columns of factors which were used to help calculate the overall score for a country (ex. Antimicrobial resistance, Access to potable water, etc). Some of these factors were then visualized in comparison to the the overall score of a country, and we plan on including factors with high correlation to overall score to the slider feature mentioned in the [blog post for phase 1](https://arthur-t-huang.github.io/Care-Compass-Blog/team_posts/phase1post/#data-sources).
 We have visualized a couple of the datasets in different ways as they relate to the wireframes that we plan to implement: 
-We have visualized a couple of the datasets in different ways as they relate to the wireframes that we plan to implement: 
+
 
 ## GHS Index Dataframe:
 ![image](Health_Score_Dataframe.png)
+This dataframe represents the healthcare index scores for various countries in 2021, as well as their subcategories of what individual factors go into calculating that healthcare score index.
 
 ## Barchart:
 ![image](Healthscore_Barchart.png)
 
 ## Line Graphs:
 ![image](Expenditure_Line_Graph.png)
-Explanation: 
+This graph represents 
 
 ## Scatter Plots:
 ![image](Practitioners_Expenditure_Scatterplot.png)
