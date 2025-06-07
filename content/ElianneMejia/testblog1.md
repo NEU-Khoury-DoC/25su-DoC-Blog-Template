@@ -3,7 +3,7 @@ title: "Elianne Mejia"
 date: 2025-05-13
 draft: false
 description: "Another test"
-slug: "blog1"   # if you use, needs to be different for every post
+slug: "blog0"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "eliannemejia"
