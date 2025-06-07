@@ -230,8 +230,7 @@ This wireframe shows the homepage of CareCompass. It introduces the different us
 The _Country Comparator_ page is utilized by the student archetype where they are given the opportunity to choose 2-3 countries to compare 6 features' scores against one another in an organized table. Further, the student may choose to track a specific feature over time, given by a dropdown menu and visualized in a line plot (with different countries in different colors).
 
 ![image](wfSuggestedArticles.jpg)
-The _Strengths vs. Weaknesses_ page is also used by the student to look at one specific country and identify its strengths and weaknesses. The strengths and weaknesses are determined by features with the highest/lowest scores relative to all other countries in our datasets.
-
+The _Suggested Articles_ page is used by the student to explore news and research about a selected country’s healthcare system. Articles are fetched based on the selected country, helping students supplement quantitative score data with real-world context, policies, and current events.Country selection can be done via a dropdown or interactive map.
 ![image](wfSliders.jpg)
 The _Sliders_ page illustrates a personalized and customizable aspect to our application, particularly geared toward a moving resident. There are 6 factors that may be considered and the sliders allow users to prioritize some over others. The result of using the sliders is a bar chart that visualizes countries' scores based on the weights provided by the user (sorted from highest score to lowest), as well as a gradient map of the scores. An additional feature of this page is for individuals to choose what country they are coming from, and whether or not they would like that country score to factor into their results.
 
