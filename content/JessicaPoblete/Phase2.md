@@ -3,7 +3,7 @@ title: "Phase 2"
 date: 2025-05-27
 draft: false
 description: "First Blog"
-slug: "blog1"   # if you use, needs to be different for every post
+slug: "blog2"   # if you use, needs to be different for every post
 tags: ["authors", "config", "docs"]
 authors:
   - "JessicaPoblete"
