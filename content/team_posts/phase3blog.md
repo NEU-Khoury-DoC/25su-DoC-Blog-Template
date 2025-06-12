@@ -56,21 +56,24 @@ In the recommendations blueprint, we created the ```/recommendations/factors``` 
 Lastly, in the ml blueprint, we connected our backend to the regression and cosine similarity models by wiring up routes for predictive forecasting, model parameter storage, and similarity-based lookups, laying the foundation for data-driven insights throughout the app.
 
 Below is a matrix of our thus far created REST APIs
-| **Method** | **Endpoint**                       | **Purpose**                                         |
-| ---------- | ---------------------------------- | --------------------------------------------------- |
-| `GET`      | `/countries`                       | List all countries (with optional score filter)     |
-| `GET`      | `/countries/<id>/profile`          | Return full profile with metadata and factor scores |
-| `GET`      | `/countries/<id>/factors`          | Return raw factor scores for a specific country     |
-| `PUT`      | `/countries/<id>`                  | Update country metadata (admin-only)                |
-| `DELETE`   | `/countries/<id>`                  | Delete a country record (admin-only)                |
-| `GET`      | `/compare`                         | Compare 2–3 countries across all factors            |
-| `GET`      | `/compare/timeseries`              | View a feature’s change over time across countries  |
-| `GET`      | `/recommendations/factors`         | Get the six healthcare factors + descriptions       |
-| `POST`     | `/recommendations/recommendations` | Generate personalized country matches via k-NN      |
-| `GET`      | `/ml/predict/<feature>/<country>`  | Return predicted trend line using regression        |
-| `POST`     | `/ml/store-weights`                | Store ML model weights in the database              |
-| `GET`      | `/ml/get_cosine_similar/<country>` | Get countries most similar to a selected one        |
-| `GET`      | `/ml/get_regression/<input>`       | Predict a specific country's metric from input      |
+| **Resource**                                     | **GET**                                                             | **POST**                                | **PUT** | **DELETE**                  |
+| ------------------------------------------------ | ------------------------------------------------------------------- | --------------------------------------- | ------- | --------------------------- |
+| `/countries`                                     | Retrieves all countries                                             | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/countries/<country_code>`                      | Retrieves metadata, info, and articles for a country                | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/countries/<country_code>/articles`             | Retrieves articles associated with a specific country               | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/features/<input>`                              | Retrieves latest values for 6 key indicators for a given country    | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/articles/favorite`                             | Gets all favorited articles for the current user                    | Adds an article to the user's favorites | *n/a*   | *n/a*                       |
+| `/articles/favorite/<articleID>`                 | *n/a*                                                               | *n/a*                                   | *n/a*   | Removes a favorited article |
+| `/factor_descriptions`                           | Returns descriptions of the 6 healthcare system factors             | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/predict/<expenditure>/<country>`            | Regression stats for a specific expenditure & country               | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/get_regression/<input>`                     | Regression coefficients and stats for a country-feature pair        | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/get_autoregressive/<country>/<code>/<year>` | Autoregressive forecast for a country-feature combo to target year  | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/get_autoregressive_all/<input>`             | Runs autoregression model on a full dataset                         | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/get_graph_data/<input>`                     | Raw data for plotting for a given feature                           | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/get_countries`                              | Gets distinct countries from live births dataset                    | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/ml/store-weights`                              | *n/a*                                                               | Stores regression model weights         | *n/a*   | *n/a*                       |
+| `/ml/cosine/<country>/<weights_dict>`            | Returns cosine similarity results for a country using weight vector | *n/a*                                   | *n/a*   | *n/a*                       |
+
 
 
 Finally, we built out an initial structure for most of our front end pages, as well as personalized  our web page colors and font. 
