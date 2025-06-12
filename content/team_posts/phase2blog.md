@@ -43,18 +43,20 @@ We have visualized a couple of the datasets in different ways as they relate to 
 ![image](Health_Score_Dataframe.png)
 This dataframe represents the healthcare index scores for various countries in 2021, as well as their subcategories of what individual factors go into calculating that healthcare score index.
 
-## Barchart:
+## Bar Chart:
 ![image](Healthscore_Barchart.png)
+This barchart showcases the overall healthcare score for each country, as listed on the x axis. However, it seems that there are more bars than countries listed. This must be because we have two on record years of data for each country, with two different scores. This may mean we will have to cut the dataset down further to one year, and maybe even organize by continent to list less countries on the x-axis if we are to continue with the Bar Chart visualizations. 
 
 ## Line Graphs:
 ![image](Expenditure_Line_Graph.png)
-This graph represents the health expenditure (in GDP per capita) over time for all of the given countries, as seen in the legend for the country codes. Based on this graph we can tell that there is a general upward trend over time for all of the countries, which means that health expenditure as increased at a relatively constant rate over time since the 1920s. This will be interesting for the user to predict just how much the expenditure will increase in a future year. 
+This graph represents the health expenditure (in GDP per capita) over time for all of the given countries, as seen in the legend for the country codes. Based on this graph we can tell that there is a general upward trend over time for all of the countries, which means that health expenditure as increased at a relatively constant rate over time since the 1920s. This will be interesting for the user to predict just how much the expenditure will increase in a future year. We may have to scale down to only displaying a couple of countries at a time, just so that the user can understand the graph better. 
 
 ## Scatter Plots:
 ![image](Practitioners_Expenditure_Scatterplot.png)
+This scatterplot is between General Practioners per 10,000 and Total Healthcare expenditure, in order to see if there is a relationship between the two. There doesn't seem to be any logical relationship across all the countries, so this might mean that a relationship between these individual World Health Organization datasets may not make sense. Since each of the categories that we have come from a different category within the original data warehouse, it could make more sense to just plot each feature over time, and explore predictions and lines of best fit with those graphs. 
+
 ![image](Antimicrobial_Resistance_Scatterplot.png)
-
-
+This scatterplot explores the relationship between overall healthcare score with one of the sub categories that go into the overall healthcare score (Antimicrobial Resistance Rates). There seems to be a situation in this data, where the overall score improves between the two years 2019 and 2021, but the antimicrobial resistance rates stay the same. This means that maybe we should look to explorethe broader factors, rather than the subcategories, because they may not make a major difference when looking at the comparison between countries and years. 
 
 
 
