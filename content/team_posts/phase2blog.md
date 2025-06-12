@@ -71,152 +71,158 @@ Further, the global ER model is seen here:
 ![image](globalER.png)
 
 The relational diagram was further derived as:
-![image](relationalDiagram.png)
+![image](relationalDatabase.png)
 
 ## SQL DDL:
 Based on our global data model, a first pass of our SQL DDL can be seen below.
 
 <pre> 
-DROP DATABASE IF EXISTS cc_database;
-CREATE DATABASE cc_database;
-USE cc_database;
-
--- create country table
 DROP TABLE IF EXISTS Countries;
 CREATE TABLE Countries
 (
-    code    VARCHAR(50) PRIMARY KEY
     region  VARCHAR(50),
     name    VARCHAR(50),
+    code    VARCHAR(50) PRIMARY KEY
+
 );
+
+DROP TABLE IF EXISTS OverallScore;
+CREATE TABLE OverallScore(
+    scoreID INT AUTO_INCREMENT PRIMARY KEY,
+    country          VARCHAR(31) NOT NULL,
+    year             INTEGER  NOT NULL,
+    overall_score    FLOAT NOT NULL,
+    prevention       FLOAT NOT NULL,
+    detectReport     FLOAT NOT NULL,
+    rapidResp        FLOAT NOT NULL,
+    healthSys        FLOAT NOT NULL,
+    intlNorms        FLOAT NOT NULL,
+    riskEnv          FLOAT NOT NULL,
+    FOREIGN KEY (country) REFERENCES Countries(code)
+  );
 
 
 DROP TABLE IF EXISTS CountryInfo;
 CREATE TABLE CountryInfo
 (
-    countryCode VARCHAR(50),
-    strengths   VARCHAR(50),
-    weaknesses  VARCHAR(50),
-    score       FLOAT,
-    info        VARCHAR(50),
-    FOREIGN KEY (countryCode) REFERENCES Countries(code),
-    FOREIGN KEY (score) REFERENCES OverallScore(overall_score)
-)
+    countryCode VARCHAR(3) NOT NULL PRIMARY KEY,
+    generalInfo        VARCHAR(700),
+    healthcareInfo      VARCHAR(700),
+    FOREIGN KEY (countryCode) REFERENCES Countries(code)
+); 
 
+DROP TABLE IF EXISTS CountryArticles;
+CREATE TABLE CountryArticles(
+    id             INT AUTO_INCREMENT PRIMARY KEY,
+    country_code        VARCHAR(3) NOT NULL,
+    article_title  VARCHAR(255) NOT NULL,
+    article_link   VARCHAR(1371) NOT NULL,
+    source         VARCHAR(100) NOT NULL,
+
+    FOREIGN KEY (country_code) REFERENCES Countries(code)
+);
 
 DROP TABLE IF EXISTS UserRoles;
-CREATE TABLE UserROles;
+CREATE TABLE UserRoles
 (
     roleID INT PRIMARY KEY,
-    roleName VARCHAR(50),
-)
+    roleName VARCHAR(50)
+);
 
--- create users table
+
 DROP TABLE IF EXISTS Users;
 CREATE TABLE Users
 (
-    id               INT PRIMARY KEY,
-    name             VARCHAR(50),
-    roleID      INT,
-    country VARCHAR(50),
-    FOREIGN KEY (country) REFERENCES Countries (code).
+    id               INT AUTO_INCREMENT PRIMARY KEY,
+    first_name       VARCHAR(50),
+    last_name        VARCHAR(50),
+    email            VARCHAR(50),
+    roleID           INT,
+    country          VARCHAR(50),
+    
+    FOREIGN KEY (country) REFERENCES Countries(code),
     FOREIGN KEY (roleID) REFERENCES UserRoles(roleID)
 );
 
 
--- create factors table
+DROP TABLE IF EXISTS Favorites;
+CREATE TABLE Favorites(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userID  INT,
+    articleID   INT, 
+    FOREIGN KEY (articleID) REFERENCES CountryArticles(id),
+    FOREIGN KEY (userID) REFERENCES Users(id)
+);
+
 DROP TABLE IF EXISTS Factors;
 CREATE TABLE Factors
 (
     factorID    INT PRIMARY KEY,
     name        VARCHAR(50),
-    score       FLOAT,
+    score       INT,
     
-    FOREIGN KEY (score) REFERENCES OverallScore(overall_score),
+    FOREIGN KEY (score) REFERENCES OverallScore(scoreID)
 );
 
--- create score projection table
-DROP TABLE IF EXISTS score_project;
-CREATE TABLE score_project
-(
-    time    DATETIME,
-    targetScore     FLOAT primary key
-    factorID        INT,
-    FOREIGN KEY (factorID) REFERENCES Factors(factorID)
-);
-
-
--- create comparator table
-DROP TABLE IF EXISTS comparator;
-CREATE TABLE comparator
-(
-    id INT PRIMARY KEY,
-    country1  VARCHAR(50),
-    country2  VARCHAR(50),
-    country3 VARCHAR(50),
-    FOREIGN KEY (country1) REFERENCES Countries(code),
-    FOREIGN KEY (country2) REFERENCES Countries(code),
-    FOREIGN KEY (country3) REFERENCES Countries(code)
-);
-
-
-
-
-DROP TABLE IF EXISTS regression_weights;
-CREATE TABLE regression_weights
-(
+DROP TABLE IF EXISTS LiveBirths;
+CREATE TABLE LiveBirths(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    country INT,
-    slope FLOAT,
-    intercept FLOAT,
-    mse FLOAT,
-    r2 FLOAT,
-    factorID INT,
-    userID INT,
+    COUNTRY VARCHAR(50) NOT NULL,
+    YEAR    INTEGER  NOT NULL,
+    VALUE   NUMERIC(5,2) NOT NULL,
 
-    FOREIGN KEY (userID) REFERENCES Users(id),
-    FOREIGN KEY (country) REFERENCES Countries(code),
-    FOREIGN KEY (feature) REFERENCES Factors(factorID)
-)
-
-DROP TABLE IF EXISTS cosine_weights;
-CREATE TABLE cosine_weights
-(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    preventionWeight FLOAT,
-    healthSysWeight FLOAT,
-    rapidRespWeight FLOAT,
-    intlNormsWeight FLOAT,
-    riskEnvWeight FLOAT,
-    detectReportWeight FLOAT,
-    country INT,
-    userID INT,
-
-    FOREIGN KEY (userID) REFERENCES Users(id),
-    FOREIGN KEY (country) REFERENCES Countries(code)
-)
-
-DROP TABLE IF EXISTS regression_model_params;
-CREATE TABLE regression_model_params
-(
-    year INT,
-    expenditure FLOAT,
-    country VARCHAR(50),
-    FOREIGN KEY (country) REFERENCES country(name)
-)
-
-DROP TABLE IF EXISTS train_test;
-CREATE TABLE train_test
-(
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    train_x INT,
-    test_x INT,
-    train_y INT,
-    test_y INT,
-    country INT,
-    FOREIGN KEY (country) REFERENCES Countries(code)
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
 );
 
+DROP TABLE IF EXISTS LifeExpectancy;
+CREATE TABLE LifeExpectancy(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    COUNTRY VARCHAR(50) NOT NULL,
+    YEAR    INTEGER,
+    VALUE   NUMERIC(5,2),
+
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
+);
+
+DROP TABLE IF EXISTS GenPractitioners;
+CREATE TABLE GenPractitioners(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    COUNTRY VARCHAR(50) NOT NULL,
+    YEAR    INTEGER  NOT NULL,
+    VALUE   NUMERIC(5,2) NOT NULL,
+
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
+);
+
+DROP TABLE IF EXISTS HealthExpend;
+CREATE TABLE HealthExpend(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    COUNTRY VARCHAR(50) NOT NULL,
+    YEAR    INTEGER  NOT NULL,
+    VALUE   NUMERIC(6,2) NOT NULL,
+
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
+);
+
+DROP TABLE IF EXISTS ImpoverishedHouse;
+CREATE TABLE ImpoverishedHouse(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    COUNTRY VARCHAR(50) NOT NULL ,
+    YEAR    INTEGER  NOT NULL,
+    VALUE   NUMERIC(4,2) NOT NULL,
+
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
+);
+
+DROP TABLE IF EXISTS InfantMortality;
+CREATE TABLE InfantMortality(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    COUNTRY VARCHAR(50) NOT NULL,
+    YEAR    INTEGER  NOT NULL,
+    VALUE   NUMERIC(5,2) NOT NULL,
+
+    FOREIGN KEY (COUNTRY) REFERENCES Countries(code)
+);
  </pre>
 
  # WireFrames:
