@@ -73,6 +73,9 @@ Below is a matrix of our thus far created REST APIs
 | `/ml/get_countries`                              | Gets distinct countries from live births dataset                    | *n/a*                                   | *n/a*   | *n/a*                       |
 | `/ml/store-weights`                              | *n/a*                                                               | Stores regression model weights         | *n/a*   | *n/a*                       |
 | `/ml/cosine/<country>/<weights_dict>`            | Returns cosine similarity results for a country using weight vector | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/users`                                         | Retrieves all users, optionally filtered by roleID                  | *n/a*                                   | *n/a*   | *n/a*                       |
+| `/users/id/<input>`                              | Returns user ID based on email address                              | *n/a*                                   | *n/a*   | *n/a*                       |
+
 
 
 
