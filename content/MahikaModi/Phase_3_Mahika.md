@@ -1,5 +1,5 @@
 ---
-title: "Phase 2 Blog"
+title: "Phase 3 Blog"
 date: 2025-06-05
 draft: false
 description: "An update on the Summer 2025 Dialogue in Belgium"
