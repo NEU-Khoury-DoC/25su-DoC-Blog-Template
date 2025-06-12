@@ -28,7 +28,7 @@ We stored data from the API along with the weight vectors for our logsitic regre
 ## Refugee Persona
 ### Acceptance Probability Screen
 ![AcceptanceProbScreen](/acceptance_prob_screen.png)
-This screen uses the route that calls the logical regression model. Here, refugees can see their predicted acceptance probability for their top three countries. 
+This screen uses the route that calls the logistic regression model. Here, refugees can see their predicted acceptance probability for their top three countries. 
 ![LegalAidApplication](/legal_aid_app_screen.png)
 This screen shows where refugees can apply for legal aid. Their application gets addded to our database which lawyers will be able to see on their dashboard (this will be implemented in the future)
 
