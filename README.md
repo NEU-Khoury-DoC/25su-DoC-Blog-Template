@@ -1,4 +1,4 @@
-# Data and Software Belgium Blog - Summer 2025
+# Eurobébé Team Blog - 2025 Dialouge
 
 This repository contains a template for your Team's Blog. It is a Hugo-based blog uses a customized Blowfish theme. Blowfish supports multiple authors.
 
