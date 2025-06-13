@@ -17,6 +17,9 @@ showAuthorsBadges: false
 
 After five weeks, we have put together our platform Care Compass. We have spent our time improving and implementing our machine learning models, as well as creating our tables and updating our API Layer so that the backend integrates seamlessly with the front end. Our platform provides users with future predictions of healthcare values, information about similar healthcare systems, and country information in our country profile. Our UI has been updated throughout this process, and is now user-friendly with streamlit resources such as buttons, drag-and-drop, and sliders. Below, we articulate a bit more in-depth about our work processes, and we include screenshots of some of the front end pages.
 
+# Rest API Matrix
+We cleaned up the backend by auditing and reorganizing our REST API routes to match the final structure of the application. We removed several unused country routes that were never called by the frontend, and deleted outdated comparison routes, since their functionality was now handled through our ML-based endpoints. We also moved the recommendation route from its own recommendations blueprint into the country blueprint to simplify the structure—there was no need for an entire folder just for one route. After making these changes, we updated the REST API matrix to reflect the current set of endpoints. Phase 3 Blog Post updated accordingly. 
+
 
 # ML MODELS: 
 
